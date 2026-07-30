@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Progressive evidence folio for the Year 9 Timber Pen project.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f4f3d'/%3E%3Cpath d='M19 44 41 22l5 5-22 22-8 2z' fill='%23f3a53b'/%3E%3C/svg%3E">
+  <title>Pen | Student Project Folio</title>
+  <link rel="stylesheet" href="styles/course.css">
+  <link rel="stylesheet" href="styles/pen-folio.css">
+  <link rel="stylesheet" href="styles/pen-folio-infographics.css">
+</head>
+<body class="chair-folio-page pen-folio-page">
+  <a class="skip-link" href="#main-content">Skip to folio</a>
+  <header class="chair-folio-hero pen-folio-hero">
+    <div>
+      <p class="eyebrow">Year 9 Industrial Technology – Timber</p>
+      <h1>Pen Project Folio</h1>
+      <p>Build the evidence as you build the Pen. Your work saves in this browser; download a ZIP backup before changing devices.</p>
+      <a class="button-link secondary" href="index.html">← Back to course home</a>
+    </div>
+  </header>
+
+  <main id="main-content" class="chair-folio-shell">
+    <section class="folio-intro card">
+      <div>
+        <p class="section-kicker">Progressive evidence</p>
+        <h2>Show the planning, process, checks and result</h2>
+        <p>A strong Pen folio is not a pile of polished final photographs. It shows what you planned, the evidence you collected, the decisions you made, what needed correction and what the completed Pen proves.</p>
+      </div>
+      <ol class="folio-routine">
+        <li><strong>1. Collect</strong><span>Add a useful photo, sketch, calculation or check.</span></li>
+        <li><strong>2. Explain</strong><span>State what it proves and why the evidence matters.</span></li>
+        <li><strong>3. Improve</strong><span>Record a problem, feedback or quality decision.</span></li>
+        <li><strong>4. Back up</strong><span>Download the ZIP before changing devices.</span></li>
+      </ol>
+    </section>
+
+    <section class="folio-controls card" aria-labelledby="student-details-heading">
+      <div class="folio-control-copy"><p class="section-kicker">Your session</p><h2 id="student-details-heading">Student details and saving</h2><p id="folioStatus" role="status">Ready. Autosave is on.</p></div>
+      <div class="folio-details">
+        <label>First name<input id="studentFirst" type="text" autocomplete="given-name"></label>
+        <label>Last name<input id="studentLast" type="text" autocomplete="family-name"></label>
+        <label>Class<input id="studentClass" type="text"></label>
+        <label>Date<input id="sessionDate" type="date"></label>
+      </div>
+      <div class="folio-actions">
+        <button class="button-link" type="button" id="downloadZip">Download ZIP backup</button>
+        <button class="button-link secondary" type="button" id="restoreSession">Restore ZIP or JSON</button>
+        <button class="button-link secondary" type="button" id="downloadJson">Download JSON</button>
+        <button class="button-link secondary" type="button" id="printFolio">Print / Save PDF</button>
+        <button class="button-link secondary" type="button" id="clearFolio">Clear workbook</button>
+        <input id="restoreInput" type="file" accept=".zip,.json,application/zip,application/json" hidden>
+      </div>
+      <div class="folio-progress" aria-label="Folio progress"><div><strong id="progressCount">0 of 12 evidence cards complete</strong><span id="progressHint">Add a response and evidence note to complete a card.</span></div><div class="progress-track"><span id="progressBar"></span></div></div>
+    </section>
+
+    <section class="folio-submission card"><div><p class="section-kicker">When your teacher asks</p><h2>Submit your evidence</h2><p>Download the ZIP backup so your answers and attached project photographs remain together. Follow the exact Google Classroom submission instructions supplied by your teacher.</p></div><div class="submission-badge">ZIP<br><span>answers + photos</span></div></section>
+    <section id="folioCards" class="folio-cards" aria-label="Pen project folio evidence cards"></section>
+  </main>
+  <footer><p>Pen Guided Course | Year 9 Timber</p></footer>
+  <script src="scripts/pen-folio.js"></script>
+  <script src="scripts/pen-folio-infographics.js"></script>
+</body>
+</html>
+
