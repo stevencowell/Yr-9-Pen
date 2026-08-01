@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --brand: #24543d;
   --brand-dark: #143729;
   --accent: #b9642f;
@@ -71,33 +71,6 @@ body {
   background: #fff;
   border: 1px solid rgba(255,255,255,.35);
   box-shadow: 0 30px 70px rgba(0,0,0,.34);
-}
-
-.hero-proof {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  position: absolute;
-  right: -10px;
-  bottom: clamp(2rem, 5vw, 4.2rem);
-  min-width: 220px;
-  padding: .9rem 1rem;
-  border-radius: 18px;
-  background: rgba(255,255,255,.96);
-  color: var(--brand-dark);
-  box-shadow: 0 18px 40px rgba(0,0,0,.2);
-}
-
-.hero-proof strong {
-  grid-row: span 2;
-  align-self: center;
-  font-size: 1.65rem;
-}
-
-.hero-proof span {
-  font-size: .78rem;
-  font-weight: 800;
-  letter-spacing: .04em;
-  text-transform: uppercase;
 }
 
 .lesson-hero .hero-inner {
@@ -446,11 +419,6 @@ main {
     padding-bottom: 3rem;
   }
 
-  .hero-proof {
-    right: 5%;
-    bottom: 1rem;
-  }
-
   .stage-strip {
     grid-template-columns: repeat(4,1fr);
   }
@@ -478,13 +446,6 @@ main {
 
   .pen-hero-product {
     border-radius: 20px;
-  }
-
-  .hero-proof {
-    position: relative;
-    right: auto;
-    bottom: auto;
-    margin-top: -2rem;
   }
 
   .stage-strip {
