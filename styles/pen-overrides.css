@@ -372,29 +372,141 @@ main {
   color: var(--muted);
 }
 
-.lesson-visual {
-  margin: 1.4rem 0 0;
-  padding: 1rem;
+.lesson-media {
+  max-width: 760px;
+  margin: 1.9rem auto 2rem;
+  overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 14px;
-  background: #f5f8f5;
-  text-align: center;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(23, 59, 44, .1);
 }
 
-.lesson-visual img {
+.lesson-media__stage {
+  display: grid;
+  min-width: 0;
+  place-items: center;
+  background: linear-gradient(145deg, #f7f4ed, #edf3ee);
+}
+
+.lesson-media__stage img {
   display: block;
-  width: min(100%, 680px);
+  max-width: 100%;
+}
+
+.lesson-media__caption {
+  display: grid;
+  align-content: center;
+  gap: .32rem;
+  margin: 0;
+  padding: 1rem 1.2rem 1.15rem;
+  color: var(--muted);
+  font-size: .94rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.lesson-media__eyebrow {
+  color: var(--accent);
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+.lesson-media__caption strong {
+  color: var(--brand);
+  font-size: 1.02rem;
+  line-height: 1.3;
+}
+
+.lesson-media--diagram {
+  display: grid;
+}
+
+.lesson-media--diagram .lesson-media__stage {
+  padding: clamp(.65rem, 2vw, 1rem);
+}
+
+.lesson-media--diagram .lesson-media__stage img {
+  width: 100%;
+  height: auto;
   max-height: 430px;
   object-fit: contain;
-  margin: 0 auto;
   border-radius: 10px;
-  background: #fff;
 }
 
-.lesson-visual figcaption {
-  margin-top: .7rem;
-  color: var(--muted);
-  font-size: .92rem;
+.lesson-media--diagram .lesson-media__caption {
+  border-top: 1px solid var(--line);
+}
+
+.lesson-media--photo,
+.lesson-media--source {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(220px, .75fr);
+  max-width: 860px;
+}
+
+.lesson-media--photo .lesson-media__stage {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+
+.lesson-media--photo .lesson-media__stage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lesson-media--source .lesson-media__stage {
+  min-height: 280px;
+  padding: clamp(.75rem, 2vw, 1.15rem);
+}
+
+.lesson-media--source .lesson-media__stage img {
+  width: 100%;
+  height: auto;
+  max-height: 390px;
+  object-fit: contain;
+  border-radius: 9px;
+}
+
+.lesson-media--photo .lesson-media__caption,
+.lesson-media--source .lesson-media__caption {
+  border-left: 1px solid var(--line);
+}
+
+.lesson-media--reverse .lesson-media__stage {
+  order: 2;
+}
+
+.lesson-media--reverse .lesson-media__caption {
+  order: 1;
+  border-right: 1px solid var(--line);
+  border-left: 0;
+}
+
+.lesson-media--reference {
+  display: grid;
+  grid-template-columns: minmax(170px, 230px) minmax(0, 1fr);
+  max-width: 650px;
+}
+
+.lesson-media--reference .lesson-media__stage {
+  min-height: 220px;
+  padding: 1rem;
+}
+
+.lesson-media--reference .lesson-media__stage img {
+  width: 100%;
+  height: 100%;
+  max-height: 285px;
+  object-fit: contain;
+  border-radius: 9px;
+}
+
+.lesson-media--reference .lesson-media__caption {
+  border-left: 1px solid var(--line);
 }
 
 .part-banner {
@@ -434,6 +546,41 @@ main {
 }
 
 @media (max-width: 600px) {
+  .lesson-media,
+  .lesson-media--photo,
+  .lesson-media--source,
+  .lesson-media--reference {
+    grid-template-columns: 1fr;
+    margin: 1.45rem 0 1.65rem;
+    border-radius: 13px;
+  }
+
+  .lesson-media--reverse .lesson-media__stage,
+  .lesson-media--reverse .lesson-media__caption {
+    order: initial;
+  }
+
+  .lesson-media--source .lesson-media__stage,
+  .lesson-media--reference .lesson-media__stage {
+    min-height: 0;
+    padding: .72rem;
+  }
+
+  .lesson-media--reference .lesson-media__stage img {
+    height: auto;
+    max-height: 250px;
+  }
+
+  .lesson-media--photo .lesson-media__caption,
+  .lesson-media--source .lesson-media__caption,
+  .lesson-media--reference .lesson-media__caption,
+  .lesson-media--reverse .lesson-media__caption {
+    padding: .9rem 1rem 1rem;
+    border-top: 1px solid var(--line);
+    border-right: 0;
+    border-left: 0;
+  }
+
   .landing-hero h1 {
     font-size: clamp(3rem, 15vw, 4.6rem);
   }
@@ -475,7 +622,7 @@ main {
 }
 
 @media print {
-  .lesson-visual,
+  .lesson-media,
   .resource-panel,
   .module-card {
     break-inside: avoid;
