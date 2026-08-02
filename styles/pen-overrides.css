@@ -372,14 +372,26 @@ main {
   color: var(--muted);
 }
 
+.textbook-section {
+  display: flow-root;
+}
+
 .lesson-media {
-  max-width: 760px;
-  margin: 1.9rem auto 2rem;
+  float: right;
+  width: min(44%, 440px);
+  max-width: 440px;
+  margin: .45rem 0 1.35rem 1.75rem;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 12px 30px rgba(23, 59, 44, .1);
+}
+
+.lesson-media--reverse {
+  float: left;
+  margin-right: 1.75rem;
+  margin-left: 0;
 }
 
 .lesson-media__stage {
@@ -443,8 +455,7 @@ main {
 .lesson-media--photo,
 .lesson-media--source {
   display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(220px, .75fr);
-  max-width: 860px;
+  grid-template-columns: 1fr;
 }
 
 .lesson-media--photo .lesson-media__stage {
@@ -473,23 +484,23 @@ main {
 
 .lesson-media--photo .lesson-media__caption,
 .lesson-media--source .lesson-media__caption {
-  border-left: 1px solid var(--line);
+  border-top: 1px solid var(--line);
 }
 
 .lesson-media--reverse .lesson-media__stage {
-  order: 2;
+  order: initial;
 }
 
 .lesson-media--reverse .lesson-media__caption {
-  order: 1;
-  border-right: 1px solid var(--line);
+  order: initial;
+  border-top: 1px solid var(--line);
+  border-right: 0;
   border-left: 0;
 }
 
 .lesson-media--reference {
   display: grid;
-  grid-template-columns: minmax(170px, 230px) minmax(0, 1fr);
-  max-width: 650px;
+  grid-template-columns: 1fr;
 }
 
 .lesson-media--reference .lesson-media__stage {
@@ -506,7 +517,7 @@ main {
 }
 
 .lesson-media--reference .lesson-media__caption {
-  border-left: 1px solid var(--line);
+  border-top: 1px solid var(--line);
 }
 
 .part-banner {
@@ -550,6 +561,9 @@ main {
   .lesson-media--photo,
   .lesson-media--source,
   .lesson-media--reference {
+    float: none;
+    width: auto;
+    max-width: none;
     grid-template-columns: 1fr;
     margin: 1.45rem 0 1.65rem;
     border-radius: 13px;
