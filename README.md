@@ -4,10 +4,10 @@ A complete, browser-based Industrial Technology Timber guided course for the Yea
 
 ## Student pathway
 
-- ten paired-week modules covering Weeks 1–20
-- three project-specific theory sections per module
-- twelve multiple-choice knowledge checks per module, with hints and immediate feedback
-- four scaffolded written responses per module, with feedback prompts and model responses
+- ten topic-based learning modules that can be selected or combined across an approximately three-week Pen project
+- three project-specific theory sections per topic
+- twelve multiple-choice knowledge checks per topic, with hints and immediate feedback
+- four scaffolded written responses per topic, with feedback prompts and model responses
 - browser/device-local autosave and Print / Save PDF evidence
 - a progressive twelve-card project folio with local backup and restore
 

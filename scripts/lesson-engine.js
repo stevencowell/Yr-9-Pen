@@ -4,6 +4,60 @@
   const config = window.LESSON_CONFIG || {};
   const mcQuestions = window.MC_QUESTIONS || [];
   const writtenQuestions = window.WRITTEN_QUESTIONS || [];
+  const routeMatch = window.location.pathname.match(/weeks(\d+)-(\d+)/i);
+  const topicNumber = routeMatch ? Math.round((Number(routeMatch[1]) + 1) / 2) : null;
+
+  function topiciseText(value) {
+    if (!topicNumber || typeof value !== 'string') return value;
+    const topicRanges = [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12], [13, 14], [15, 16], [17, 18], [19, 20]];
+    let result = value;
+    topicRanges.forEach(([start, end], index) => {
+      result = result.replace(new RegExp(`Weeks?\\s+${start}\\s*[–-]\\s*${end}`, 'gi'), `Topic ${index + 1}`);
+    });
+    return result
+      .replace(/\bTwo weeks\b/g, 'Use as directed')
+      .replace(/\btwo-week (?:module|block)\b/gi, 'topic')
+      .replace(/\bModules\b/g, 'Topics')
+      .replace(/\bmodules\b/g, 'topics')
+      .replace(/\bModule\b/g, 'Topic')
+      .replace(/\bmodule\b/g, 'topic');
+  }
+
+  function topiciseData(value) {
+    if (Array.isArray(value)) {
+      value.forEach((item, index) => {
+        value[index] = topiciseData(item);
+      });
+      return value;
+    }
+    if (value && typeof value === 'object') {
+      Object.keys(value).forEach((key) => {
+        value[key] = topiciseData(value[key]);
+      });
+      return value;
+    }
+    return topiciseText(value);
+  }
+
+  function topiciseDocument() {
+    document.title = topiciseText(document.title);
+    const description = document.querySelector('meta[name="description"]');
+    if (description) description.content = topiciseText(description.content);
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    let node = walker.nextNode();
+    while (node) {
+      node.nodeValue = topiciseText(node.nodeValue);
+      node = walker.nextNode();
+    }
+    document.querySelectorAll('[aria-label], [title]').forEach((element) => {
+      if (element.hasAttribute('aria-label')) element.setAttribute('aria-label', topiciseText(element.getAttribute('aria-label')));
+      if (element.hasAttribute('title')) element.setAttribute('title', topiciseText(element.getAttribute('title')));
+    });
+  }
+
+  topiciseData(config);
+  topiciseData(mcQuestions);
+  topiciseData(writtenQuestions);
   const STORAGE_KEY = config.storageKey || 'pen-guided-lesson';
 
   const defaultState = {
@@ -532,5 +586,8 @@
     updateSummary();
   }
 
-  document.addEventListener('DOMContentLoaded', initialise);
+  document.addEventListener('DOMContentLoaded', () => {
+    topiciseDocument();
+    initialise();
+  });
 }());

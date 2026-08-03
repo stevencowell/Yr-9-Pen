@@ -39,7 +39,7 @@ All generated workshop photographs are text-free, contain no identifiable people
 
 ## New ChatGPT assets
 
-- Thirty theory sections were generated one named section at a time in Steve's signed-in ChatGPT Pro session and integrated into the ten paired-week modules.
+- Thirty theory sections were generated one named section at a time in Steve's signed-in ChatGPT Pro session and integrated into ten topic-based learning modules.
 - `assets/pen-course-hero.png` and exactly twelve project-specific folio guides in `assets/folio/cards/` were generated one at a time in the signed-in ChatGPT Pro session.
 - Guide files: `01-project-brief.png`, `02-authority-map.png`, `03-whs-wms.png`, `04-timber-grain.png`, `05-sleeves-drilling.png`, `06-mandrel-check.png`, `07-turning-cycle.png`, `08-surface-abrasives.png`, `09-finish-quality.png`, `10-assembly.png`, `11-evidence-flow.png`, and `12-pmi-transfer.png`.
 - Every guide was mapped to one folio card and checked locally. Guides 06 and 10 were rejected and regenerated as abstract process diagrams because the first versions implied unverified physical arrangements.
