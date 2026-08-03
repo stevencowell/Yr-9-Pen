@@ -524,6 +524,33 @@ main {
   background: linear-gradient(100deg, #173b2c, #2d6549 70%, #a9572c);
 }
 
+@media (max-width: 1100px) {
+  .landing-hero .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 0;
+    min-height: auto;
+  }
+
+  .landing-hero .hero-copy {
+    max-width: 720px;
+    padding: 3.5rem 0 2.25rem;
+  }
+
+  .landing-hero h1 {
+    max-width: none;
+  }
+
+  .landing-hero .hero-showcase {
+    justify-items: stretch;
+    padding-bottom: 3rem;
+  }
+
+  .landing-hero .pen-hero-product {
+    width: 100%;
+    max-width: none;
+  }
+}
+
 @media (max-width: 850px) {
   .landing-hero .hero-inner,
   .lesson-hero .hero-inner,
@@ -535,7 +562,7 @@ main {
   }
 
   .landing-hero .hero-copy {
-    padding-bottom: 0;
+    padding-bottom: 2rem;
   }
 
   .hero-showcase {
