@@ -26,16 +26,16 @@ window.MC_QUESTIONS = [
     "question": "What is the strongest next action when applying \"Understanding the Pen project brief and success criteria\"?",
     "options": [
       "Act before checking the approved source.",
-      "Before each project stage, check the approved instructions, identify the intended quality outcome and record evidence of your decision or result.",
+      "Before each project stage, check the approved instructions, identify the intended quality outcome and record evidence of my decision or result.",
       "Wait until the final lesson to inspect the result.",
       "Copy another student without checking the approved resource."
     ],
     "correct": 1,
     "hint": "Choose the action that uses verified information and a quality check.",
-    "strongHint": "The strongest action is: Before each project stage, check the approved instructions, identify the intended quality outcome and record evidence of your decision or result.",
+    "strongHint": "The strongest action is: Before each project stage, check the approved instructions, identify the intended quality outcome and record evidence of my decision or result.",
     "feedback": [
       "Acting before diagnosis can create a second fault.",
-      "Before each project stage, check the approved instructions, identify the intended quality outcome and record evidence of your decision or result.",
+      "Before each project stage, check the approved instructions, identify the intended quality outcome and record evidence of my decision or result.",
       "Progressive checking is safer and more reliable than a final surprise.",
       "Another student’s work is not a controlling source."
     ]
@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Pen project success combines safe, careful manufacture with a project report that proves planning, quality control and evaluation. A strong Pen response would before each project stage, check the approved instructions, identify the intended quality outcome and record evidence of your decision or result. The folio could prove this with use progressive sketches, the cutting list, Work Method Statement, production flowchart, quality records and PMI evaluation to show how the pen met the brief."
+    "model": "Pen project success combines safe, careful manufacture with a project report that proves planning, quality control and evaluation. Before each project stage, I would check the approved instructions, identify the intended quality outcome and record evidence of my decision or result."
   },
   {
     "title": "2. Apply: Reading the approved Pen Making process resource and kit instructions",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "The approved Pen Making resource controls the sequence, named parts, alignment references and required checks. A strong Pen response would read each stage, confirm it against the supplied kit and teacher directions, and pause at every required checkpoint. The folio could prove this with record the marked timber, paired grain alignment, identified kit parts and completed checks as progressive Pen project evidence."
+    "model": "The approved Pen Making resource controls the sequence, named parts, alignment references and required checks. For my Pen, I would read each stage, confirm it against the supplied kit and teacher directions, and pause at every required checkpoint."
   },
   {
     "title": "3. Apply: Managing wood-lathe hazards, risks and teacher approval",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Effective safety on the lathe comes from identifying hazards and applying the strongest practical controls before relying on PPE. A strong Pen response would before each lathe stage, identify hazards, apply approved controls and obtain teacher authorisation. The folio could prove this with show teacher approval, pre-start checks, applied controls and any reported issues as linked Pen project safety evidence."
+    "model": "Effective safety on the lathe comes from identifying hazards and applying the strongest practical controls before relying on PPE. Before each lathe stage, I would identify hazards, apply approved controls and obtain teacher authorisation."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Reading the approved Pen Making process resource and kit instructions\".",
       "Include a specific idea from \"Managing wood-lathe hazards, risks and teacher approval\"."
     ],
-    "model": "Weeks 1-2 connect three parts of the same project. Pen project success combines safe, careful manufacture with a project report that proves planning, quality control and evaluation. The approved Pen Making resource controls the sequence, named parts, alignment references and required checks. Effective safety on the lathe comes from identifying hazards and applying the strongest practical controls before relying on PPE. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "Pen project success combines safe, careful manufacture with a project report that proves planning, quality control and evaluation. The approved Pen Making resource controls the sequence, named parts, alignment references and required checks. Effective safety on the lathe comes from identifying hazards and applying the strongest practical controls before relying on PPE."
   }
 ];

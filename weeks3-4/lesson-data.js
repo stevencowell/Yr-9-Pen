@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Pen blank selection depends on observable timber quality, responsible use and teacher-approved decisions. A strong Pen response would inspect the starting timber carefully, record what you observe and confirm suitability with the teacher before use. The folio could prove this with provide annotated photos or notes showing timber condition, grain, defects and the reason for selection with teacher approval."
+    "model": "Pen blank selection depends on observable timber quality, responsible use and teacher-approved decisions. For my Pen, I would inspect the starting timber carefully, record what you observe and confirm suitability with the teacher before use."
   },
   {
     "title": "2. Apply: Using grain orientation to keep the two Pen bodies visually connected",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "The approved centre and grain line keeps the two Pen bodies in their original visual relationship. A strong Pen response would keep the paired parts identified, align the centre and grain line, and obtain the teacher check before proceeding. The folio could prove this with show the original orientation mark, the corresponding lines on the paired parts and the final grain-continuity judgement."
+    "model": "The approved centre and grain line keeps the two Pen bodies in their original visual relationship. For my Pen, I would keep the paired parts identified, align the centre and grain line, and obtain the teacher check before proceeding."
   },
   {
     "title": "3. Apply: Planning responsible material use and the Pen cutting list",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A Pen cutting list communicates verified material information and supports efficient, responsible use. A strong Pen response would record only approved values, confirm uncertainties with the teacher and plan how the timber will be used efficiently. The folio could prove this with provide a cutting list showing verified information, teacher-confirmed values and notes explaining material efficiency and waste management decisions."
+    "model": "A Pen cutting list communicates verified material information and supports efficient, responsible use. For my Pen, I would record only approved values, confirm uncertainties with the teacher and plan how the timber will be used efficiently."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Using grain orientation to keep the two Pen bodies visually connected\".",
       "Include a specific idea from \"Planning responsible material use and the Pen cutting list\"."
     ],
-    "model": "Weeks 3-4 connect three parts of the same project. Pen blank selection depends on observable timber quality, responsible use and teacher-approved decisions. The approved centre and grain line keeps the two Pen bodies in their original visual relationship. A Pen cutting list communicates verified material information and supports efficient, responsible use. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "Pen blank selection depends on observable timber quality, responsible use and teacher-approved decisions. The approved centre and grain line keeps the two Pen bodies in their original visual relationship. A Pen cutting list communicates verified material information and supports efficient, responsible use."
   }
 ];

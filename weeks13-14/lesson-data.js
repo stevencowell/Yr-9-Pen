@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Accurate Pen assembly begins by verifying, organising and protecting every component from the matched approved kit. A strong Pen response would compare the staged timber bodies, clip/button and nib shroud with the approved resource and stop for any uncertainty. The folio could prove this with show the clean staged kit, identified verified components, protected timber bodies and recorded teacher checkpoint."
+    "model": "Accurate Pen assembly begins by verifying, organising and protecting every component from the matched approved kit. For my Pen, I would compare the staged timber bodies, clip/button and nib shroud with the approved resource and stop for any uncertainty."
   },
   {
     "title": "2. Apply: Assembling the clip/button and nib shroud in the approved sequence",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Controlled Pen assembly uses verified mating parts, protected support and repeated alignment checks throughout the approved sequence. A strong Pen response would follow the kit resource and teacher demonstration, support the finished bodies and stop whenever alignment or resistance is uncertain. The folio could prove this with show identified components, protected staging, alignment checks, teacher approval and any stop-and-report decision made during assembly."
+    "model": "Controlled Pen assembly uses verified mating parts, protected support and repeated alignment checks throughout the approved sequence. For my Pen, I would follow the kit resource and teacher demonstration, support the finished bodies and stop whenever alignment or resistance is uncertain."
   },
   {
     "title": "3. Apply: Preventing misalignment and damage during Pen assembly",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Accurate Pen assembly is achieved through clean surfaces, correct orientation and controlled alignment rather than force. A strong Pen response would check cleanliness and orientation, align carefully and stop immediately for any resistance or uncertainty. The folio could prove this with record clean staging, alignment checks, teacher approvals and any stop-and-report decisions that prevented damage."
+    "model": "Accurate Pen assembly is achieved through clean surfaces, correct orientation and controlled alignment rather than force. For my Pen, I would check cleanliness and orientation, align carefully and stop immediately for any resistance or uncertainty."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Assembling the clip/button and nib shroud in the approved sequence\".",
       "Include a specific idea from \"Preventing misalignment and damage during Pen assembly\"."
     ],
-    "model": "Weeks 13-14 connect three parts of the same project. Accurate Pen assembly begins by verifying, organising and protecting every component from the matched approved kit. Controlled Pen assembly uses verified mating parts, protected support and repeated alignment checks throughout the approved sequence. Accurate Pen assembly is achieved through clean surfaces, correct orientation and controlled alignment rather than force. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "Accurate Pen assembly begins by verifying, organising and protecting every component from the matched approved kit. Controlled Pen assembly uses verified mating parts, protected support and repeated alignment checks throughout the approved sequence. Accurate Pen assembly is achieved through clean surfaces, correct orientation and controlled alignment rather than force."
   }
 ];

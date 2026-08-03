@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Between-centres turning explains rotation and alignment, while the approved Pen mandrel applies those ideas through kit-specific, teacher-controlled setup. A strong Pen response would follow the approved Pen mandrel process, align the grain reference and obtain teacher approval before and during turning. The folio could prove this with show aligned paired parts, teacher-approved mandrel setup and recorded quality checks linking turning to final Pen quality."
+    "model": "Between-centres turning explains rotation and alignment, while the approved Pen mandrel applies those ideas through kit-specific, teacher-controlled setup. For my Pen, I would follow the approved Pen mandrel process, align the grain reference and obtain teacher approval before and during turning."
   },
   {
     "title": "2. Apply: Assembling the approved mandrel with three collets and brass thumb screw",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Accurate Pen mandrel preparation depends on verified part identification, clean staging, grain-line alignment and teacher approval. A strong Pen response would compare every part with the approved resource, align the paired grain lines and obtain teacher approval before progressing. The folio could prove this with photograph the clean staged components, the three collets and brass thumb screw, aligned timber parts and completed teacher checkpoint."
+    "model": "Accurate Pen mandrel preparation depends on verified part identification, clean staging, grain-line alignment and teacher approval. For my Pen, I would compare every part with the approved resource, align the paired grain lines and obtain teacher approval before progressing."
   },
   {
     "title": "3. Apply: Lathe pre-start checks and secure approved workholding",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Safe lathe use depends on isolation, verified controls and secure approved workholding before starting. A strong Pen response would isolate, inspect all required controls, confirm workholding and obtain teacher approval before starting. The folio could prove this with record pre-start checks, isolation, teacher approval and any stop-and-report decisions linked to the Pen stage."
+    "model": "Safe lathe use depends on isolation, verified controls and secure approved workholding before starting. For my Pen, I would isolate, inspect all required controls, confirm workholding and obtain teacher approval before starting."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Assembling the approved mandrel with three collets and brass thumb screw\".",
       "Include a specific idea from \"Lathe pre-start checks and secure approved workholding\"."
     ],
-    "model": "Weeks 7-8 connect three parts of the same project. Between-centres turning explains rotation and alignment, while the approved Pen mandrel applies those ideas through kit-specific, teacher-controlled setup. Accurate Pen mandrel preparation depends on verified part identification, clean staging, grain-line alignment and teacher approval. Safe lathe use depends on isolation, verified controls and secure approved workholding before starting. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "Between-centres turning explains rotation and alignment, while the approved Pen mandrel applies those ideas through kit-specific, teacher-controlled setup. Accurate Pen mandrel preparation depends on verified part identification, clean staging, grain-line alignment and teacher approval. Safe lathe use depends on isolation, verified controls and secure approved workholding before starting."
   }
 ];

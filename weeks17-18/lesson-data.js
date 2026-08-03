@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A Pen WMS links each real manufacturing stage to specific hazards, consequences, approved controls and required teacher checkpoints. A strong Pen response would sequence the approved Pen stages, apply hazard–event–consequence thinking and review the WMS whenever conditions change. The folio could prove this with submit the completed WMS with dated checkpoints and records showing that the stated controls were actually used and reviewed."
+    "model": "A Pen WMS links each real manufacturing stage to specific hazards, consequences, approved controls and required teacher checkpoints. For my Pen, I would sequence the approved Pen stages, apply hazard–event–consequence thinking and review the WMS whenever conditions change."
   },
   {
     "title": "2. Apply: Creating the Pen production flowchart: inputs, processes and outputs",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A Pen production flowchart connects verified inputs, approved processes, decision points and outputs in one traceable system. A strong Pen response would map each approved Pen stage with its inputs, process, output, checkpoint and relevant impact, then verify the sequence with the teacher. The folio could prove this with submit the completed flowchart with one explained feedback loop and one evidence-based social or environmental impact connection."
+    "model": "A Pen production flowchart connects verified inputs, approved processes, decision points and outputs in one traceable system. For my Pen, I would map each approved Pen stage with its inputs, process, output, checkpoint and relevant impact, then verify the sequence with the teacher."
   },
   {
     "title": "3. Apply: Explaining social and environmental impacts of Pen production and use",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Pen impact claims must be evidence-based, qualified and balanced across materials, production, use and end of life. A strong Pen response would use the flowchart and project records to identify one social benefit, one environmental impact, one uncertainty and one realistic improvement. The folio could prove this with provide sourced product information, material-efficiency and waste records, flowchart annotations and qualified user feedback."
+    "model": "Pen impact claims must be evidence-based, qualified and balanced across materials, production, use and end of life. For my Pen, I would use the flowchart and project records to identify one social benefit, one environmental impact, one uncertainty and one realistic improvement."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Creating the Pen production flowchart: inputs, processes and outputs\".",
       "Include a specific idea from \"Explaining social and environmental impacts of Pen production and use\"."
     ],
-    "model": "Weeks 17-18 connect three parts of the same project. A Pen WMS links each real manufacturing stage to specific hazards, consequences, approved controls and required teacher checkpoints. A Pen production flowchart connects verified inputs, approved processes, decision points and outputs in one traceable system. Pen impact claims must be evidence-based, qualified and balanced across materials, production, use and end of life. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "A Pen WMS links each real manufacturing stage to specific hazards, consequences, approved controls and required teacher checkpoints. A Pen production flowchart connects verified inputs, approved processes, decision points and outputs in one traceable system. Pen impact claims must be evidence-based, qualified and balanced across materials, production, use and end of life."
   }
 ];

@@ -312,6 +312,12 @@ input[type="text"]:focus, textarea:focus { outline: 3px solid rgba(11,95,173,.18
 .feedback.not-yet { background: var(--amber-light); border-left: 5px solid var(--amber); }
 .feedback.error { background: var(--danger-light); border-left: 5px solid var(--danger); }
 .hint-panel { background: var(--brand-light); border-left: 5px solid var(--brand); }
+.hint-panel p { margin: 8px 0 0; }
+.theory-return-link { display: inline-block; font-weight: 900; }
+.theory-return-link:focus { outline: 3px solid rgba(11,95,173,.28); outline-offset: 3px; }
+.secondary-hint { margin-top: 12px; padding-top: 12px; border-top: 1px solid #aebfd0; }
+.textbook-section { scroll-margin-top: 18px; }
+.textbook-section:focus { outline: 4px solid rgba(11,95,173,.25); outline-offset: 4px; }
 .model-panel { background: #f1f4f8; border: 1px solid #cfd9e4; }
 .attempts { color: var(--muted); font-size: .84rem; margin-left: auto; }
 .mastery-badge { display: none; color: var(--accent); font-weight: 900; }

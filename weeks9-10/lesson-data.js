@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A controlled Pen cylinder is developed progressively through observation, symmetry checks and restrained material removal. A strong Pen response would follow the approved process, pause at checkpoints and compare both Pen bodies before further material is removed. The folio could prove this with show the square, intermediate and cylindrical stages with captions explaining observations, decisions and teacher approval."
+    "model": "A controlled Pen cylinder is developed progressively through observation, symmetry checks and restrained material removal. For my Pen, I would follow the approved process, pause at checkpoints and compare both Pen bodies before further material is removed."
   },
   {
     "title": "2. Apply: Understanding cutting and scraping during Pen turning",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Cutting and scraping remove timber fibres in different ways, and controlled presentation and observation determine Pen surface quality. A strong Pen response would follow the teacher-demonstrated action, observe the surface closely and stop for any uncertainty or unexpected result. The folio could prove this with use checkpoint photos and notes to show observed surface changes, teacher checks and decisions made during Pen turning."
+    "model": "Cutting and scraping remove timber fibres in different ways, and controlled presentation and observation determine Pen surface quality. For my Pen, I would follow the teacher-demonstrated action, observe the surface closely and stop for any uncertainty or unexpected result."
   },
   {
     "title": "3. Apply: Monitoring profile, alignment and material removal against approved kit references",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Monitoring profile and alignment through repeated check–decide–act cycles ensures controlled material removal and consistent Pen quality. A strong Pen response would pause regularly to compare the work with approved references and seek teacher approval before further material removal. The folio could prove this with provide staged photos and notes showing profile checks, alignment confirmation, decisions made and teacher checkpoint approvals."
+    "model": "Monitoring profile and alignment through repeated check–decide–act cycles ensures controlled material removal and consistent Pen quality. For my Pen, I would pause regularly to compare the work with approved references and seek teacher approval before further material removal."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Understanding cutting and scraping during Pen turning\".",
       "Include a specific idea from \"Monitoring profile, alignment and material removal against approved kit references\"."
     ],
-    "model": "Weeks 9-10 connect three parts of the same project. A controlled Pen cylinder is developed progressively through observation, symmetry checks and restrained material removal. Cutting and scraping remove timber fibres in different ways, and controlled presentation and observation determine Pen surface quality. Monitoring profile and alignment through repeated check–decide–act cycles ensures controlled material removal and consistent Pen quality. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "A controlled Pen cylinder is developed progressively through observation, symmetry checks and restrained material removal. Cutting and scraping remove timber fibres in different ways, and controlled presentation and observation determine Pen surface quality. Monitoring profile and alignment through repeated check–decide–act cycles ensures controlled material removal and consistent Pen quality."
   }
 ];

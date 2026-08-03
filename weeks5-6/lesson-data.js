@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Clear, preserved reference marks control alignment and reduce cumulative error in the Pen project. A strong Pen response would apply and protect the centre/grain line, keep paired parts identified and confirm markings with the approved source and teacher. The folio could prove this with show the billet with the centre/grain line, explain its purpose and demonstrate how it was preserved and used for later alignment."
+    "model": "Clear, preserved reference marks control alignment and reduce cumulative error in the Pen project. For my Pen, I would apply and protect the centre/grain line, keep paired parts identified and confirm markings with the approved source and teacher."
   },
   {
     "title": "2. Apply: Preparing the two brass sleeves for the approved Pen kit",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Controlled preparation of both brass sleeve outer surfaces supports reliable bonding in the approved Pen kit. A strong Pen response would keep the two sleeves with their kit, prepare their outer surfaces as demonstrated and obtain teacher approval before bonding. The folio could prove this with show both prepared sleeves and explain the identification, surface-quality and teacher checks completed before bonding."
+    "model": "Controlled preparation of both brass sleeve outer surfaces supports reliable bonding in the approved Pen kit. For my Pen, I would keep the two sleeves with their kit, prepare their outer surfaces as demonstrated and obtain teacher approval before bonding."
   },
   {
     "title": "3. Apply: Drilling clean Pen blank holes and clearing swarf",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Regular swarf clearance supports cleaner, straighter Pen blank holes by controlling chip build-up, friction and heat. A strong Pen response would use the teacher-approved setup, clear swarf as demonstrated and stop for approval whenever the process appears abnormal. The folio could prove this with record teacher authorisation, approved workholding, swarf-clearance checks and the inspected condition of both Pen blank holes."
+    "model": "Regular swarf clearance supports cleaner, straighter Pen blank holes by controlling chip build-up, friction and heat. For my Pen, I would use the teacher-approved setup, clear swarf as demonstrated and stop for approval whenever the process appears abnormal."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Preparing the two brass sleeves for the approved Pen kit\".",
       "Include a specific idea from \"Drilling clean Pen blank holes and clearing swarf\"."
     ],
-    "model": "Weeks 5-6 connect three parts of the same project. Clear, preserved reference marks control alignment and reduce cumulative error in the Pen project. Controlled preparation of both brass sleeve outer surfaces supports reliable bonding in the approved Pen kit. Regular swarf clearance supports cleaner, straighter Pen blank holes by controlling chip build-up, friction and heat. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "Clear, preserved reference marks control alignment and reduce cumulative error in the Pen project. Controlled preparation of both brass sleeve outer surfaces supports reliable bonding in the approved Pen kit. Regular swarf clearance supports cleaner, straighter Pen blank holes by controlling chip build-up, friction and heat."
   }
 ];

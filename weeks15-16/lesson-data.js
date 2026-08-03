@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A successful Pen profile balances user needs, visual proportion and grain continuity within the approved kit constraints. A strong Pen response would compare profile sketches, check feasibility with the teacher and monitor the developing form against the selected design. The folio could prove this with use design comparisons, staged profile photographs and informed user judgement to explain how the final Pen profile was resolved."
+    "model": "A successful Pen profile balances user needs, visual proportion and grain continuity within the approved kit constraints. For my Pen, I would compare profile sketches, check feasibility with the teacher and monitor the developing form against the selected design."
   },
   {
     "title": "2. Apply: Standards, quality control and production techniques in Pen manufacture",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Pen quality is controlled through approved criteria and planned checkpoints at every production stage. A strong Pen response would use a check–decide–act cycle at each Pen stage and obtain teacher approval whenever the result is uncertain. The folio could prove this with maintain a quality-check record linking each criterion, observation, decision, teacher checkpoint and supporting photograph or note."
+    "model": "Pen quality is controlled through approved criteria and planned checkpoints at every production stage. For my Pen, I would use a check–decide–act cycle at each Pen stage and obtain teacher approval whenever the result is uncertain."
   },
   {
     "title": "3. Apply: Comparing handcraft, jigs and repeat production technologies",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Different production approaches achieve quality through varying levels of human control, support systems and repeatability. A strong Pen response would apply handcraft skills with approved supports and compare these with repeat production ideas to understand quality control. The folio could prove this with create a comparison table showing handcraft, jigs and repeat production in terms of control, consistency, adaptability and responsibility, supported by examples from the Pen project."
+    "model": "Different production approaches achieve quality through varying levels of human control, support systems and repeatability. For my Pen, I would apply handcraft skills with approved supports and compare these with repeat production ideas to understand quality control."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Standards, quality control and production techniques in Pen manufacture\".",
       "Include a specific idea from \"Comparing handcraft, jigs and repeat production technologies\"."
     ],
-    "model": "Weeks 15-16 connect three parts of the same project. A successful Pen profile balances user needs, visual proportion and grain continuity within the approved kit constraints. Pen quality is controlled through approved criteria and planned checkpoints at every production stage. Different production approaches achieve quality through varying levels of human control, support systems and repeatability. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "A successful Pen profile balances user needs, visual proportion and grain continuity within the approved kit constraints. Pen quality is controlled through approved criteria and planned checkpoints at every production stage. Different production approaches achieve quality through varying levels of human control, support systems and repeatability."
   }
 ];

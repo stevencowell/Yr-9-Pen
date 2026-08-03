@@ -95,7 +95,7 @@
   let migratedLegacyGuidance = false;
   Object.values(state.written).forEach((saved) => {
     if (typeof saved.guidance === 'string' && /genuine attempt first|at least 55 words|check your response twice/i.test(saved.guidance)) {
-      saved.guidance = '<strong>Start with a short attempt.</strong> Write about 15 words, or use Check my response once, then compare your ideas with the model response.';
+      saved.guidance = '<strong>Start with a short attempt.</strong> Write about 15 words, or use Check my response once, then compare your ideas with the appropriate response example.';
       migratedLegacyGuidance = true;
     }
   });
@@ -250,6 +250,32 @@
     document.querySelectorAll('textarea[data-action="written-input"]').forEach(autoGrowTextarea);
   }
 
+  function theoryDetailsForQuestion(index) {
+    const theoryNumber = Math.min(3, Math.floor(index / 4) + 1);
+    const id = `theory-${theoryNumber}`;
+    const section = document.getElementById(id);
+    const heading = section ? section.querySelector('h2') : null;
+    return { id, title: heading ? heading.textContent.trim() : `Theory ${theoryNumber}` };
+  }
+
+  function hintStage(saved) {
+    if (Number.isInteger(saved.hintStage)) return Math.max(0, Math.min(2, saved.hintStage));
+    return saved.hintVisible ? 1 : 0;
+  }
+
+  function hintButtonLabel(stage) {
+    if (stage === 1) return 'Need another hint?';
+    if (stage === 2) return 'Hide hints';
+    return 'Need a hint?';
+  }
+
+  function focusHintButton(index) {
+    window.requestAnimationFrame(() => {
+      const button = document.querySelector(`[data-mc-index="${index}"] [data-action="hint-mc"]`);
+      if (button) button.focus();
+    });
+  }
+
   function renderMcQuestions() {
     const container = document.getElementById('mc-questions');
     if (!container) return;
@@ -258,7 +284,8 @@
       const selected = Number.isInteger(saved.selected) ? saved.selected : null;
       const mastered = Boolean(saved.mastered);
       const attempts = saved.attempts || 0;
-      const hintVisible = Boolean(saved.hintVisible);
+      const stage = hintStage(saved);
+      const theory = theoryDetailsForQuestion(index);
       const feedbackClass = saved.feedbackType || '';
       const feedback = saved.feedback || '';
 
@@ -280,11 +307,15 @@
           <div class="options">${options}</div>
           <div class="question-actions screen-only">
             <button class="check-button" type="button" data-action="check-mc">${mastered ? 'Check again' : 'Check answer'}</button>
-            <button class="hint-button" type="button" data-action="hint-mc">${hintVisible ? 'Hide hint' : 'Need a hint?'}</button>
+            <button class="hint-button" type="button" data-action="hint-mc" aria-expanded="${stage > 0}" aria-controls="mc-hint-${index}">${hintButtonLabel(stage)}</button>
             <span class="mastery-badge">Mastered</span>
             <span class="attempts">Attempts: ${attempts}</span>
           </div>
-          <div class="hint-panel ${hintVisible ? 'show' : ''}"><strong>Hint:</strong> ${escapeHtml(attempts >= 2 ? item.strongHint : item.hint)}</div>
+          <div id="mc-hint-${index}" class="hint-panel ${stage > 0 ? 'show' : ''}" role="region" aria-label="Help for question ${index + 1}">
+            <a class="theory-return-link" href="#${theory.id}" data-action="revisit-theory" data-theory-target="${theory.id}">Revisit ${escapeHtml(theory.title)}</a>
+            <p>Read that theory section, then return and use its key idea to rule out choices.</p>
+            ${stage > 1 ? `<div class="secondary-hint"><strong>Another hint:</strong> ${escapeHtml(item.hint)}</div>` : ''}
+          </div>
           <div class="feedback ${feedbackClass} ${feedback ? 'show' : ''}" role="status" aria-live="polite">${feedback}</div>
         </article>`;
     }).join('');
@@ -311,17 +342,17 @@
             <ul>${item.scaffold.map(line => `<li>${escapeHtml(line)}</li>`).join('')}</ul>
           </div>
           <label class="visually-hidden" for="written-${index}">Response to ${escapeHtml(item.title)}</label>
-          <textarea id="written-${index}" data-action="written-input" placeholder="Write your response here before viewing the model answer…">${escapeHtml(response)}</textarea>
+          <textarea id="written-${index}" data-action="written-input" placeholder="Write your response here before viewing the appropriate response example…">${escapeHtml(response)}</textarea>
           <div class="response-meta">
             <span data-word-count>Word count: ${wc} words</span>
             <span>${checked ? 'Guidance reviewed' : 'Not yet reviewed'}</span>
           </div>
           <div class="written-actions screen-only">
             <button class="check-button" type="button" data-action="check-written">Check my response</button>
-            <button class="model-button" type="button" data-action="model-written">${modelVisible ? 'Hide model response' : 'Compare with model response'}</button>
+            <button class="model-button" type="button" data-action="model-written">${modelVisible ? 'Hide appropriate response example' : 'Compare with appropriate response example'}</button>
           </div>
           <div class="response-guidance ${saved.guidance ? 'show' : ''} ${saved.ready ? 'ready' : ''}" role="status" aria-live="polite">${saved.guidance || ''}</div>
-          <div class="model-panel ${modelVisible ? 'show' : ''}"><strong>Model response:</strong> ${escapeHtml(item.model)}</div>
+          <div class="model-panel ${modelVisible ? 'show' : ''}"><strong>Appropriate response example:</strong> ${escapeHtml(item.model)}</div>
           <div class="self-score ${modelVisible ? 'show' : ''}">
             <strong>Self-assess after comparing:</strong>
             <div class="score-buttons screen-only">
@@ -353,10 +384,23 @@
     const action = event.target.dataset.action;
 
     if (action === 'hint-mc') {
-      saved.hintVisible = !saved.hintVisible;
+      const currentStage = hintStage(saved);
+      saved.hintStage = currentStage >= 2 ? 0 : currentStage + 1;
+      saved.hintVisible = saved.hintStage > 0;
       state.mc[index] = saved;
       saveState();
       renderMcQuestions();
+      focusHintButton(index);
+      return;
+    }
+
+    if (action === 'revisit-theory') {
+      const link = event.target.closest('[data-theory-target]');
+      const target = link ? document.getElementById(link.dataset.theoryTarget) : null;
+      if (target) {
+        target.setAttribute('tabindex', '-1');
+        window.requestAnimationFrame(() => target.focus({ preventScroll: true }));
+      }
       return;
     }
 
@@ -382,11 +426,12 @@
       } else {
         saved.mastered = false;
         saved.lastWrong = selected;
+        saved.hintStage = Math.max(1, hintStage(saved));
         saved.hintVisible = true;
         saved.feedbackType = 'not-yet';
         const nextStep = saved.attempts >= 2
-          ? 'Use the stronger clue, rule out the options that do not match the theory, then try again.'
-          : 'Read the hint and try again.';
+          ? 'Revisit the linked theory, then use the second hint to rule out options that do not match it.'
+          : 'Revisit the linked theory and try again.';
         saved.feedback = `<strong>Not yet.</strong> ${escapeHtml(item.feedback[selected])} ${escapeHtml(nextStep)}`;
       }
       state.mc[index] = saved;
@@ -449,14 +494,14 @@
       if (wc < 15) {
         const remaining = 15 - wc;
         saved.ready = false;
-        saved.guidance = `<strong>Good start.</strong> Add about ${remaining} more word${remaining === 1 ? '' : 's'} for a short attempt. You can then compare your ideas with the model response.`;
+        saved.guidance = `<strong>Good start.</strong> Add about ${remaining} more word${remaining === 1 ? '' : 's'} for a short attempt. You can then compare your ideas with the appropriate response example.`;
       } else if (missingIndexes.length) {
         saved.ready = false;
         const prompts = missingIndexes.map(i => `<li>${escapeHtml(item.prompts[i])}</li>`).join('');
         saved.guidance = `<strong>You have part of the answer.</strong> Strengthen it by adding:<ul>${prompts}</ul>`;
       } else {
         saved.ready = true;
-        saved.guidance = '<strong>Strong response.</strong> You have included the main concepts. Compare it with the model, improve any unclear wording, then self-assess honestly.';
+        saved.guidance = '<strong>Strong response.</strong> You have included the main concepts. Compare it with the appropriate response example, improve any unclear wording, then self-assess honestly.';
       }
       state.written[index] = saved;
       saveState();
@@ -470,7 +515,7 @@
       if (!saved.modelVisible && !canReveal) {
         saved.checked = true;
         saved.ready = false;
-        saved.guidance = '<strong>Start with a short attempt.</strong> Write about 15 words, or use Check my response once, then compare your ideas with the model response.';
+        saved.guidance = '<strong>Start with a short attempt.</strong> Write about 15 words, or use Check my response once, then compare your ideas with the appropriate response example.';
       } else {
         saved.modelVisible = !saved.modelVisible;
         if (saved.modelVisible) saved.checked = true;

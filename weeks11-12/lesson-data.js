@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Surface defects should be diagnosed and understood before sanding so quality is controlled rather than concealed. A strong Pen response would stop, inspect under suitable lighting, describe the defect and seek teacher approval before any correction or sanding. The folio could prove this with provide before-and-after images with notes explaining the defect, suspected cause, teacher decision and final surface condition."
+    "model": "Surface defects should be diagnosed and understood before sanding so quality is controlled rather than concealed. For my Pen, I would stop, inspect under suitable lighting, describe the defect and seek teacher approval before any correction or sanding."
   },
   {
     "title": "2. Apply: Using a progressive approved abrasive sequence",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Each abrasive stage refines the previous one, producing a controlled and consistent Pen surface when followed in sequence. A strong Pen response would follow the approved sequence, inspect between stages and stop when the intended surface condition is achieved with teacher approval. The folio could prove this with show staged surface changes with captions explaining inspection, decisions and teacher checkpoints across the abrasive sequence."
+    "model": "Each abrasive stage refines the previous one, producing a controlled and consistent Pen surface when followed in sequence. For my Pen, I would follow the approved sequence, inspect between stages and stop when the intended surface condition is achieved with teacher approval."
   },
   {
     "title": "3. Apply: Selecting and applying the approved Pen finish from product information",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Approved Pen finishing depends on product compatibility, surface readiness and following verified label, SDS and SOP information. A strong Pen response would check the approved product information, confirm surface readiness and follow the teacher-approved application and handling process. The folio could prove this with provide before-and-after photos with notes on product identification, surface checks, teacher approval and final appearance and protection."
+    "model": "Approved Pen finishing depends on product compatibility, surface readiness and following verified label, SDS and SOP information. For my Pen, I would check the approved product information, confirm surface readiness and follow the teacher-approved application and handling process."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Using a progressive approved abrasive sequence\".",
       "Include a specific idea from \"Selecting and applying the approved Pen finish from product information\"."
     ],
-    "model": "Weeks 11-12 connect three parts of the same project. Surface defects should be diagnosed and understood before sanding so quality is controlled rather than concealed. Each abrasive stage refines the previous one, producing a controlled and consistent Pen surface when followed in sequence. Approved Pen finishing depends on product compatibility, surface readiness and following verified label, SDS and SOP information. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "Surface defects should be diagnosed and understood before sanding so quality is controlled rather than concealed. Each abrasive stage refines the previous one, producing a controlled and consistent Pen surface when followed in sequence. Approved Pen finishing depends on product compatibility, surface readiness and following verified label, SDS and SOP information."
   }
 ];

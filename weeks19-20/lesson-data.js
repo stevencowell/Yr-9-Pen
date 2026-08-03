@@ -269,7 +269,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Purposeful Pen photography records authentic stages, decisions and results without interrupting safe workshop practice. A strong Pen response would photograph approved stop points and explain each important image using observation, decision, action and result. The folio could prove this with submit sequenced overall and detail views, before-and-after comparisons, teacher-checkpoint notes and truthful problem-solving captions."
+    "model": "Purposeful Pen photography records authentic stages, decisions and results without interrupting safe workshop practice. For my Pen, I would photograph approved stop points and explain each important image using observation, decision, action and result."
   },
   {
     "title": "2. Apply: Using PMI to evaluate the completed Pen",
@@ -318,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A Pen PMI evaluates the product and process against approved criteria using specific, traceable evidence. A strong Pen response would record one evidence-backed Plus, Minus and Interesting point, then explain one realistic improvement and how it would be checked. The folio could prove this with use final inspection notes, staged photographs, user judgement, teacher checkpoints, WMS records and impact observations to support the PMI."
+    "model": "A Pen PMI evaluates the product and process against approved criteria using specific, traceable evidence. For my Pen, I would record one evidence-backed Plus, Minus and Interesting point, then explain one realistic improvement and how it would be checked."
   },
   {
     "title": "3. Apply: Final reflection, evidence review and skill transfer",
@@ -367,7 +367,7 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Final reflection verifies claims against evidence, shows growth across outcomes and identifies transferable skills. A strong Pen response would audit your folio, fix gaps, link evidence to outcomes and write one concise improvement and transfer statement. The folio could prove this with provide a sequenced, labelled folio with working files, clear images, teacher checkpoints and a brief reflection using the scaffold."
+    "model": "Final reflection verifies claims against evidence, shows growth across outcomes and identifies transferable skills. For my Pen, I would audit my folio, fix gaps, link evidence to outcomes and write one concise improvement and transfer statement."
   },
   {
     "title": "4. Connect the two-week module",
@@ -412,6 +412,6 @@ window.WRITTEN_QUESTIONS = [
       "Include a specific idea from \"Using PMI to evaluate the completed Pen\".",
       "Include a specific idea from \"Final reflection, evidence review and skill transfer\"."
     ],
-    "model": "Weeks 19-20 connect three parts of the same project. Purposeful Pen photography records authentic stages, decisions and results without interrupting safe workshop practice. A Pen PMI evaluates the product and process against approved criteria using specific, traceable evidence. Final reflection verifies claims against evidence, shows growth across outcomes and identifies transferable skills. Together, these ideas improve the Pen because the student can make a controlled decision, check the result and preserve useful evidence rather than relying on appearance or memory."
+    "model": "Purposeful Pen photography records authentic stages, decisions and results without interrupting safe workshop practice. A Pen PMI evaluates the product and process against approved criteria using specific, traceable evidence. Final reflection verifies claims against evidence, shows growth across outcomes and identifies transferable skills."
   }
 ];
