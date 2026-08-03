@@ -591,3 +591,5 @@
     initialise();
   });
 }());
+
+(() => { const script = document.createElement('script'); script.src = '/Yr-9-Pen/shared/hub-navigation.js'; document.head.append(script); })();
