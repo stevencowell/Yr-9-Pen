@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Understanding between-centres turning and the approved Pen mandrel",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Understanding between-centres turning and the approved Pen mandrel? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Accurate Pen mandrel preparation depends on verified part identification, clean staging, grain-line alignment and teacher approval. For my Pen, I would compare every part with the approved resource, align the paired grain lines and obtain teacher approval before progressing."
+    "model": "Accurate Pen mandrel preparation depends on verified part identification, clean staging, grain-line alignment and teacher approval. For my Pen, I would compare every part with the approved resource, align the paired grain lines and obtain teacher approval before progressing.",
+    "clarification": "What is the key idea in Assembling the approved mandrel with three collets and brass thumb screw? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Lathe pre-start checks and secure approved workholding",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Safe lathe use depends on isolation, verified controls and secure approved workholding before starting. For my Pen, I would isolate, inspect all required controls, confirm workholding and obtain teacher approval before starting."
+    "model": "Safe lathe use depends on isolation, verified controls and secure approved workholding before starting. For my Pen, I would isolate, inspect all required controls, confirm workholding and obtain teacher approval before starting.",
+    "clarification": "What is the key idea in Lathe pre-start checks and secure approved workholding? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 7-8 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

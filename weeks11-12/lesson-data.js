@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Diagnosing tool marks and surface defects before sanding",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Diagnosing tool marks and surface defects before sanding? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Each abrasive stage refines the previous one, producing a controlled and consistent Pen surface when followed in sequence. For my Pen, I would follow the approved sequence, inspect between stages and stop when the intended surface condition is achieved with teacher approval."
+    "model": "Each abrasive stage refines the previous one, producing a controlled and consistent Pen surface when followed in sequence. For my Pen, I would follow the approved sequence, inspect between stages and stop when the intended surface condition is achieved with teacher approval.",
+    "clarification": "What is the key idea in Using a progressive approved abrasive sequence? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Selecting and applying the approved Pen finish from product information",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Approved Pen finishing depends on product compatibility, surface readiness and following verified label, SDS and SOP information. For my Pen, I would check the approved product information, confirm surface readiness and follow the teacher-approved application and handling process."
+    "model": "Approved Pen finishing depends on product compatibility, surface readiness and following verified label, SDS and SOP information. For my Pen, I would check the approved product information, confirm surface readiness and follow the teacher-approved application and handling process.",
+    "clarification": "What is the key idea in Selecting and applying the approved Pen finish from product information? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 11-12 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

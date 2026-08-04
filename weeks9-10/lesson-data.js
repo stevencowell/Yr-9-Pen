@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: From square blank to controlled cylindrical form",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in From square blank to controlled cylindrical form? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Cutting and scraping remove timber fibres in different ways, and controlled presentation and observation determine Pen surface quality. For my Pen, I would follow the teacher-demonstrated action, observe the surface closely and stop for any uncertainty or unexpected result."
+    "model": "Cutting and scraping remove timber fibres in different ways, and controlled presentation and observation determine Pen surface quality. For my Pen, I would follow the teacher-demonstrated action, observe the surface closely and stop for any uncertainty or unexpected result.",
+    "clarification": "What is the key idea in Understanding cutting and scraping during Pen turning? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Monitoring profile, alignment and material removal against approved kit references",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Monitoring profile and alignment through repeated check–decide–act cycles ensures controlled material removal and consistent Pen quality. For my Pen, I would pause regularly to compare the work with approved references and seek teacher approval before further material removal."
+    "model": "Monitoring profile and alignment through repeated check–decide–act cycles ensures controlled material removal and consistent Pen quality. For my Pen, I would pause regularly to compare the work with approved references and seek teacher approval before further material removal.",
+    "clarification": "What is the key idea in Monitoring profile, alignment and material removal against approved kit references? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 9-10 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

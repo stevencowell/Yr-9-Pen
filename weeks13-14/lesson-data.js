@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Identifying and staging the Pen kit components for assembly",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Identifying and staging the Pen kit components for assembly? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Controlled Pen assembly uses verified mating parts, protected support and repeated alignment checks throughout the approved sequence. For my Pen, I would follow the kit resource and teacher demonstration, support the finished bodies and stop whenever alignment or resistance is uncertain."
+    "model": "Controlled Pen assembly uses verified mating parts, protected support and repeated alignment checks throughout the approved sequence. For my Pen, I would follow the kit resource and teacher demonstration, support the finished bodies and stop whenever alignment or resistance is uncertain.",
+    "clarification": "What is the key idea in Assembling the clip/button and nib shroud in the approved sequence? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Preventing misalignment and damage during Pen assembly",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Accurate Pen assembly is achieved through clean surfaces, correct orientation and controlled alignment rather than force. For my Pen, I would check cleanliness and orientation, align carefully and stop immediately for any resistance or uncertainty."
+    "model": "Accurate Pen assembly is achieved through clean surfaces, correct orientation and controlled alignment rather than force. For my Pen, I would check cleanliness and orientation, align carefully and stop immediately for any resistance or uncertainty.",
+    "clarification": "What is the key idea in Preventing misalignment and damage during Pen assembly? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 13-14 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

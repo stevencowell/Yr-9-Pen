@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Designing a comfortable and visually resolved Pen profile within kit constraints",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Designing a comfortable and visually resolved Pen profile within kit constraints? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Pen quality is controlled through approved criteria and planned checkpoints at every production stage. For my Pen, I would use a check–decide–act cycle at each Pen stage and obtain teacher approval whenever the result is uncertain."
+    "model": "Pen quality is controlled through approved criteria and planned checkpoints at every production stage. For my Pen, I would use a check–decide–act cycle at each Pen stage and obtain teacher approval whenever the result is uncertain.",
+    "clarification": "What is the key idea in Standards, quality control and production techniques in Pen manufacture? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Comparing handcraft, jigs and repeat production technologies",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Different production approaches achieve quality through varying levels of human control, support systems and repeatability. For my Pen, I would apply handcraft skills with approved supports and compare these with repeat production ideas to understand quality control."
+    "model": "Different production approaches achieve quality through varying levels of human control, support systems and repeatability. For my Pen, I would apply handcraft skills with approved supports and compare these with repeat production ideas to understand quality control.",
+    "clarification": "What is the key idea in Comparing handcraft, jigs and repeat production technologies? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 15-16 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

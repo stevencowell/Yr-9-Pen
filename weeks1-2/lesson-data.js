@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Understanding the Pen project brief and success criteria",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Understanding the Pen project brief and success criteria? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "The approved Pen Making resource controls the sequence, named parts, alignment references and required checks. For my Pen, I would read each stage, confirm it against the supplied kit and teacher directions, and pause at every required checkpoint."
+    "model": "The approved Pen Making resource controls the sequence, named parts, alignment references and required checks. For my Pen, I would read each stage, confirm it against the supplied kit and teacher directions, and pause at every required checkpoint.",
+    "clarification": "What is the key idea in Reading the approved Pen Making process resource and kit instructions? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Managing wood-lathe hazards, risks and teacher approval",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Effective safety on the lathe comes from identifying hazards and applying the strongest practical controls before relying on PPE. Before each lathe stage, I would identify hazards, apply approved controls and obtain teacher authorisation."
+    "model": "Effective safety on the lathe comes from identifying hazards and applying the strongest practical controls before relying on PPE. Before each lathe stage, I would identify hazards, apply approved controls and obtain teacher authorisation.",
+    "clarification": "What is the key idea in Managing wood-lathe hazards, risks and teacher approval? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 1-2 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

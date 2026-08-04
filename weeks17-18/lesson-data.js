@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Building a real Pen Work Method Statement",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Building a real Pen Work Method Statement? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A Pen production flowchart connects verified inputs, approved processes, decision points and outputs in one traceable system. For my Pen, I would map each approved Pen stage with its inputs, process, output, checkpoint and relevant impact, then verify the sequence with the teacher."
+    "model": "A Pen production flowchart connects verified inputs, approved processes, decision points and outputs in one traceable system. For my Pen, I would map each approved Pen stage with its inputs, process, output, checkpoint and relevant impact, then verify the sequence with the teacher.",
+    "clarification": "What is the key idea in Creating the Pen production flowchart: inputs, processes and outputs? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Explaining social and environmental impacts of Pen production and use",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Pen impact claims must be evidence-based, qualified and balanced across materials, production, use and end of life. For my Pen, I would use the flowchart and project records to identify one social benefit, one environmental impact, one uncertainty and one realistic improvement."
+    "model": "Pen impact claims must be evidence-based, qualified and balanced across materials, production, use and end of life. For my Pen, I would use the flowchart and project records to identify one social benefit, one environmental impact, one uncertainty and one realistic improvement.",
+    "clarification": "What is the key idea in Explaining social and environmental impacts of Pen production and use? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 17-18 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

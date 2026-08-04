@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Marking the Pen billet and preserving reliable references",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Marking the Pen billet and preserving reliable references? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Controlled preparation of both brass sleeve outer surfaces supports reliable bonding in the approved Pen kit. For my Pen, I would keep the two sleeves with their kit, prepare their outer surfaces as demonstrated and obtain teacher approval before bonding."
+    "model": "Controlled preparation of both brass sleeve outer surfaces supports reliable bonding in the approved Pen kit. For my Pen, I would keep the two sleeves with their kit, prepare their outer surfaces as demonstrated and obtain teacher approval before bonding.",
+    "clarification": "What is the key idea in Preparing the two brass sleeves for the approved Pen kit? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Drilling clean Pen blank holes and clearing swarf",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Regular swarf clearance supports cleaner, straighter Pen blank holes by controlling chip build-up, friction and heat. For my Pen, I would use the teacher-approved setup, clear swarf as demonstrated and stop for approval whenever the process appears abnormal."
+    "model": "Regular swarf clearance supports cleaner, straighter Pen blank holes by controlling chip build-up, friction and heat. For my Pen, I would use the teacher-approved setup, clear swarf as demonstrated and stop for approval whenever the process appears abnormal.",
+    "clarification": "What is the key idea in Drilling clean Pen blank holes and clearing swarf? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 5-6 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

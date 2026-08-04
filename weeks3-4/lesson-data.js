@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Selecting and inspecting timber for the Pen blank",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Selecting and inspecting timber for the Pen blank? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "The approved centre and grain line keeps the two Pen bodies in their original visual relationship. For my Pen, I would keep the paired parts identified, align the centre and grain line, and obtain the teacher check before proceeding."
+    "model": "The approved centre and grain line keeps the two Pen bodies in their original visual relationship. For my Pen, I would keep the paired parts identified, align the centre and grain line, and obtain the teacher check before proceeding.",
+    "clarification": "What is the key idea in Using grain orientation to keep the two Pen bodies visually connected? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Planning responsible material use and the Pen cutting list",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A Pen cutting list communicates verified material information and supports efficient, responsible use. For my Pen, I would record only approved values, confirm uncertainties with the teacher and plan how the timber will be used efficiently."
+    "model": "A Pen cutting list communicates verified material information and supports efficient, responsible use. For my Pen, I would record only approved values, confirm uncertainties with the teacher and plan how the timber will be used efficiently.",
+    "clarification": "What is the key idea in Planning responsible material use and the Pen cutting list? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 3-4 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {

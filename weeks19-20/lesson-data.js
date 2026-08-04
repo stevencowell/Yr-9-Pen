@@ -225,6 +225,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Apply: Photographing Pen stages and explaining problem solving",
     "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "clarification": "What is the key idea in Photographing Pen stages and explaining problem solving? How would you use it in a decision, fault check or quality check?",
     "minWords": 75,
     "concepts": [
       {
@@ -318,7 +319,8 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "A Pen PMI evaluates the product and process against approved criteria using specific, traceable evidence. For my Pen, I would record one evidence-backed Plus, Minus and Interesting point, then explain one realistic improvement and how it would be checked."
+    "model": "A Pen PMI evaluates the product and process against approved criteria using specific, traceable evidence. For my Pen, I would record one evidence-backed Plus, Minus and Interesting point, then explain one realistic improvement and how it would be checked.",
+    "clarification": "What is the key idea in Using PMI to evaluate the completed Pen? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "3. Apply: Final reflection, evidence review and skill transfer",
@@ -367,11 +369,13 @@ window.WRITTEN_QUESTIONS = [
       "Apply the idea to a specific Pen stage or decision.",
       "Finish with a clear quality or evidence check."
     ],
-    "model": "Final reflection verifies claims against evidence, shows growth across outcomes and identifies transferable skills. For my Pen, I would audit my folio, fix gaps, link evidence to outcomes and write one concise improvement and transfer statement."
+    "model": "Final reflection verifies claims against evidence, shows growth across outcomes and identifies transferable skills. For my Pen, I would audit my folio, fix gaps, link evidence to outcomes and write one concise improvement and transfer statement.",
+    "clarification": "What is the key idea in Final reflection, evidence review and skill transfer? How would you use it in a decision, fault check or quality check?"
   },
   {
     "title": "4. Connect the two-week module",
     "prompt": "Explain how the three topics in Weeks 19-20 work together to improve the safety, accuracy, quality, function or evidence of the Pen project.",
+    "clarification": "How do these three topics work together in the Pen project? What do they improve?",
     "minWords": 110,
     "concepts": [
       {
