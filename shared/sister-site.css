@@ -53,6 +53,37 @@
   white-space: nowrap;
 }
 
+.hub-return-actions {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.hub-change-link {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  min-height: 34px;
+  padding: 0.4rem 0.72rem;
+  text-decoration: none;
+}
+
+.hub-change-link:hover,
+.hub-change-link:focus-visible {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+  outline: 3px solid rgba(255, 255, 255, 0.42);
+  outline-offset: 2px;
+}
+
 .sister-hero {
   --hero-start: #173f55;
   --hero-end: #2f6b7e;
@@ -270,8 +301,16 @@
   }
 
   .hub-course-label {
-    padding-left: 2rem;
-    white-space: normal;
+    display: none;
+  }
+
+  .hub-return-actions {
+    align-self: stretch;
+  }
+
+  .hub-change-link {
+    justify-content: center;
+    width: 100%;
   }
 
   .sister-hero .hero-subtitle,

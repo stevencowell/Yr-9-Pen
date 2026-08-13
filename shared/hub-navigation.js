@@ -2,6 +2,7 @@
   "use strict";
 
   const HUB_URL = "https://stevencowell.github.io/Main-Page/";
+  const CHANGE_REQUEST_URL = "https://docs.google.com/document/d/1E6rJTa34n_yv9kkZstta99LEAjwbbUIZnhtyYI3x19U/edit";
   const script = document.currentScript;
   const stylesheetUrl = script ? new URL("sister-site.css", script.src).href : "";
 
@@ -33,7 +34,64 @@
   label.className = "hub-course-label";
   label.textContent = courseLabel;
 
-  inner.append(link, label);
+  const actions = document.createElement("div");
+  actions.className = "hub-return-actions";
+
+  const requestLink = document.createElement("a");
+  requestLink.className = "hub-change-link";
+  requestLink.href = CHANGE_REQUEST_URL;
+  requestLink.target = "_blank";
+  requestLink.rel = "noopener";
+  requestLink.dataset.siteChangeRequest = "";
+  requestLink.textContent = "Suggest a change";
+  requestLink.setAttribute("aria-label", "Suggest a change to this Pen website page");
+
+  actions.append(label, requestLink);
+  inner.append(link, actions);
   bar.append(inner);
   document.body.prepend(bar);
+
+  const copyPageAddress = async () => {
+    const pageAddress = window.location.href;
+
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(pageAddress);
+      return true;
+    }
+
+    const helper = document.createElement("textarea");
+    helper.value = pageAddress;
+    helper.setAttribute("readonly", "");
+    helper.style.position = "fixed";
+    helper.style.opacity = "0";
+    document.body.append(helper);
+    helper.select();
+    const copied = document.execCommand("copy");
+    helper.remove();
+    return copied;
+  };
+
+  document.querySelectorAll("[data-site-change-request]").forEach((changeLink) => {
+    changeLink.addEventListener("click", (event) => {
+      copyPageAddress()
+        .then((copied) => {
+          document.querySelectorAll("[data-change-request-status]").forEach((status) => {
+            status.textContent = copied
+              ? "Page link copied. Paste it into PAGE in the staff document."
+              : "Copy this page's address from the browser, then paste it into PAGE in the staff document.";
+          });
+        })
+        .catch(() => {
+          document.querySelectorAll("[data-change-request-status]").forEach((status) => {
+            status.textContent = "Copy this page's address from the browser, then paste it into PAGE in the staff document.";
+          });
+        });
+
+      const requestWindow = window.open(changeLink.href, "pen-site-change-request", "popup,width=760,height=900");
+      if (requestWindow) {
+        event.preventDefault();
+        requestWindow.focus();
+      }
+    });
+  });
 })();
