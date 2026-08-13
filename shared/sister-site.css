@@ -306,6 +306,7 @@
 
   .hub-return-actions {
     align-self: stretch;
+    flex-direction: column;
   }
 
   .hub-change-link {

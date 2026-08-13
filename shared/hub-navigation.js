@@ -2,6 +2,7 @@
   "use strict";
 
   const HUB_URL = "https://stevencowell.github.io/Main-Page/";
+  const BUSY_WORK_URL = "https://stevencowell.github.io/busy-worksheets/?library=timber";
   const CHANGE_REQUEST_URL = "https://docs.google.com/document/d/1E6rJTa34n_yv9kkZstta99LEAjwbbUIZnhtyYI3x19U/edit";
   const script = document.currentScript;
   const stylesheetUrl = script ? new URL("sister-site.css", script.src).href : "";
@@ -46,7 +47,12 @@
   requestLink.textContent = "Suggest a change";
   requestLink.setAttribute("aria-label", "Suggest a change to this Pen website page");
 
-  actions.append(label, requestLink);
+  const busyWork = document.createElement("a");
+  busyWork.className = "hub-change-link";
+  busyWork.href = BUSY_WORK_URL;
+  busyWork.textContent = "Busy Work";
+
+  actions.append(label, busyWork, requestLink);
   inner.append(link, actions);
   bar.append(inner);
   document.body.prepend(bar);
