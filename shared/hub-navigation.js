@@ -38,21 +38,12 @@
   const actions = document.createElement("div");
   actions.className = "hub-return-actions";
 
-  const requestLink = document.createElement("a");
-  requestLink.className = "hub-change-link";
-  requestLink.href = CHANGE_REQUEST_URL;
-  requestLink.target = "_blank";
-  requestLink.rel = "noopener";
-  requestLink.dataset.siteChangeRequest = "";
-  requestLink.textContent = "Suggest a change";
-  requestLink.setAttribute("aria-label", "Suggest a change to this Pen website page");
-
   const busyWork = document.createElement("a");
   busyWork.className = "hub-change-link";
   busyWork.href = BUSY_WORK_URL;
   busyWork.textContent = "Busy Work";
 
-  actions.append(label, busyWork, requestLink);
+  actions.append(label, busyWork);
   inner.append(link, actions);
   bar.append(inner);
   document.body.prepend(bar);
