@@ -3,61 +3,73 @@
 
   const HUB_URL = "https://stevencowell.github.io/Main-Page/";
   const BUSY_WORK_URL = "https://stevencowell.github.io/busy-worksheets/?library=timber";
+  const PEN_RESOURCE_URL = "https://docs.google.com/presentation/d/1UJVPYocKy_sRtzlE1PBCmOyAVNXlfgnB7DSfXkej2-4/edit";
   const CHANGE_REQUEST_URL = "https://docs.google.com/document/d/1E6rJTa34n_yv9kkZstta99LEAjwbbUIZnhtyYI3x19U/edit";
   const script = document.currentScript;
-  const stylesheetUrl = script ? new URL("sister-site.css", script.src).href : "";
+  const courseRoot = script ? new URL("../", script.src) : new URL("/Yr-9-Pen/", location.origin);
+  const navStylesheetUrl = script
+    ? new URL("../course-family-navigation.css?v=20260814a", script.src).href
+    : new URL("course-family-navigation.css?v=20260814a", courseRoot).href;
 
-  if (stylesheetUrl && !document.querySelector('link[data-sister-site-styles]')) {
+  if (!document.querySelector("link[data-course-family-navigation-styles]")) {
     const stylesheet = document.createElement("link");
     stylesheet.rel = "stylesheet";
-    stylesheet.href = stylesheetUrl;
-    stylesheet.dataset.sisterSiteStyles = "";
+    stylesheet.href = navStylesheetUrl;
+    stylesheet.dataset.courseFamilyNavigationStyles = "";
     document.head.append(stylesheet);
   }
 
-  if (document.querySelector(".hub-return-bar")) return;
+  if (!document.querySelector(".course-family-nav")) {
+    const path = location.pathname.toLowerCase();
+    const rootPath = courseRoot.pathname.replace(/\/$/, "").toLowerCase();
+    const isCourseHome = path === rootPath + "/" || path === rootPath + "/index.html";
+    const isTeacherResources = isCourseHome && location.hash.toLowerCase() === "#teacher-resources";
 
-  const heading = document.querySelector("h1");
-  const courseLabel = heading && heading.textContent.trim() ? heading.textContent.trim() : document.title;
-  const bar = document.createElement("nav");
-  bar.className = "hub-return-bar screen-only";
-  bar.setAttribute("aria-label", "Industrial Arts Learning Hub navigation");
+    const nav = document.createElement("nav");
+    nav.className = "course-family-nav screen-only";
+    nav.setAttribute("aria-label", "Pen course navigation");
 
-  const inner = document.createElement("div");
-  inner.className = "hub-return-inner";
+    const inner = document.createElement("div");
+    inner.className = "course-family-nav__inner";
 
-  const link = document.createElement("a");
-  link.className = "hub-return-link";
-  link.href = HUB_URL;
-  link.innerHTML = '<span aria-hidden="true">←</span><span>Main menu · Industrial Arts Learning Hub</span>';
+    const brand = document.createElement("a");
+    brand.className = "course-family-nav__brand";
+    brand.href = new URL("index.html", courseRoot).href;
+    brand.innerHTML = '<span class="course-family-nav__mark" aria-hidden="true">PEN</span><span>Timber Pen</span>';
 
-  const label = document.createElement("span");
-  label.className = "hub-course-label";
-  label.textContent = courseLabel;
+    const links = document.createElement("div");
+    links.className = "course-family-nav__links";
 
-  const actions = document.createElement("div");
-  actions.className = "hub-return-actions";
+    const items = [
+      { label: "Course", href: "index.html", current: isCourseHome && !isTeacherResources },
+      { label: "Modules", href: "index.html#course-map", current: path.includes("/weeks") },
+      { label: "Video learning", href: "youtube-library/video-library.html", current: path.includes("/youtube-library/") },
+      { label: "Busy Work", href: BUSY_WORK_URL, external: true },
+      { label: "My folio", href: "pen-folio.html", current: path.endsWith("/pen-folio.html") },
+      { label: "Pen resource", href: PEN_RESOURCE_URL, external: true, newTab: true },
+      { label: "Teacher resources", href: "index.html#teacher-resources", current: isTeacherResources },
+      { label: "Main Menu", href: HUB_URL, external: true }
+    ];
 
-  const requestLink = document.createElement("a");
-  requestLink.className = "hub-change-link";
-  requestLink.href = CHANGE_REQUEST_URL;
-  requestLink.target = "_blank";
-  requestLink.rel = "noopener";
-  requestLink.dataset.siteChangeRequest = "";
-  requestLink.textContent = "Suggest a change";
-  requestLink.setAttribute("aria-label", "Suggest a change to this Pen website page");
+    items.forEach(function (item) {
+      const link = document.createElement("a");
+      link.href = item.external ? item.href : new URL(item.href, courseRoot).href;
+      link.textContent = item.label;
+      if (item.current) link.setAttribute("aria-current", "page");
+      if (item.newTab) {
+        link.target = "_blank";
+        link.rel = "noopener";
+      }
+      links.append(link);
+    });
 
-  const busyWork = document.createElement("a");
-  busyWork.className = "hub-change-link";
-  busyWork.href = BUSY_WORK_URL;
-  busyWork.textContent = "Busy Work";
+    inner.append(brand, links);
+    nav.append(inner);
+    document.body.prepend(nav);
+    document.documentElement.classList.add("has-course-family-nav");
+  }
 
-  actions.append(label, busyWork, requestLink);
-  inner.append(link, actions);
-  bar.append(inner);
-  document.body.prepend(bar);
-
-  const copyPageAddress = async () => {
+  const copyPageAddress = async function () {
     const pageAddress = window.location.href;
 
     if (navigator.clipboard && window.isSecureContext) {
@@ -77,23 +89,23 @@
     return copied;
   };
 
-  document.querySelectorAll("[data-site-change-request]").forEach((changeLink) => {
-    changeLink.addEventListener("click", (event) => {
+  document.querySelectorAll("[data-site-change-request]").forEach(function (changeLink) {
+    changeLink.addEventListener("click", function (event) {
       copyPageAddress()
-        .then((copied) => {
-          document.querySelectorAll("[data-change-request-status]").forEach((status) => {
+        .then(function (copied) {
+          document.querySelectorAll("[data-change-request-status]").forEach(function (status) {
             status.textContent = copied
               ? "Page link copied. Paste it into PAGE in the staff document."
               : "Copy this page's address from the browser, then paste it into PAGE in the staff document.";
           });
         })
-        .catch(() => {
-          document.querySelectorAll("[data-change-request-status]").forEach((status) => {
+        .catch(function () {
+          document.querySelectorAll("[data-change-request-status]").forEach(function (status) {
             status.textContent = "Copy this page's address from the browser, then paste it into PAGE in the staff document.";
           });
         });
 
-      const requestWindow = window.open(changeLink.href, "pen-site-change-request", "popup,width=760,height=900");
+      const requestWindow = window.open(CHANGE_REQUEST_URL, "pen-site-change-request", "popup,width=760,height=900");
       if (requestWindow) {
         event.preventDefault();
         requestWindow.focus();

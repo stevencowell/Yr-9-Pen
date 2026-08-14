@@ -1,1 +1,15 @@
 .course-bar,.evidence-notice,.stage-strip,.course-intro,.resource-panel,.folio-callout,.outcomes-section,.stage-overview,.teacher-request{display:none!important}.course-map .module-card a{background:transparent!important;border:0!important;border-radius:inherit!important;box-shadow:none!important}
+
+/* Keep one shared hero frame and centre the Pen within it. */
+.course-family-hero .hero-showcase{padding:0!important}
+.course-family-hero .hero-showcase .pen-hero-product{
+  aspect-ratio:auto!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  height:100%!important;
+  object-fit:cover!important;
+  object-position:right center!important;
+  transform:none!important;
+  width:100%!important;
+}
