@@ -1,0 +1,1375 @@
+{
+  "buildId": "section-video-2026-08-16T01:53:35.573Z",
+  "course": "Pen",
+  "repo": "Yr-9-Pen",
+  "validationDate": "2026-08-16",
+  "status": "PASS",
+  "videos": [
+    {
+      "module": "weeks1-2",
+      "route": "weeks1-2/index.html",
+      "section": "theory-1",
+      "heading": "Understanding the Pen project brief and success criteria",
+      "query": "Understanding the project brief and success criteria woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to understanding the pen project brief and success criteria.",
+      "selected": {
+        "id": "yYabrK8M9bg",
+        "title": "Beginning a Design Brief   Wood Technology",
+        "author": "carol odwyer",
+        "url": "https://www.youtube.com/watch?v=yYabrK8M9bg",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "DCyBplfL2dU",
+          "title": "How to Sell Woodworking Projects and Woodworking Business Tips",
+          "author": "731 Woodworks",
+          "url": "https://www.youtube.com/watch?v=DCyBplfL2dU",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks1-2",
+      "route": "weeks1-2/index.html",
+      "section": "theory-2",
+      "heading": "Reading the approved Pen Making process resource and kit instructions",
+      "query": "Reading the approved Making process resource and kit instructions woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to reading the approved pen making process resource and kit instructions.",
+      "selected": {
+        "id": "9Th4w6Avk4Y",
+        "title": "Reading Build Plans and Making Cut Lists",
+        "author": "Nicholas Acciani",
+        "url": "https://www.youtube.com/watch?v=9Th4w6Avk4Y",
+        "validated": "2026-08-16",
+        "score": 4
+      },
+      "alternatives": [
+        {
+          "id": "ZDW7mx6jz9k",
+          "title": "Helpful construction tips you should learn from the experience carpenter #carpentry #wood #skills",
+          "author": "PHPX CHANNEL 86",
+          "url": "https://www.youtube.com/watch?v=ZDW7mx6jz9k",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "lE1uAAeWAqs",
+          "title": "Amazing Woodworking Technique! Creating a Precise Recessed Groove in a Wooden Board.",
+          "author": "Crafted Logic",
+          "url": "https://www.youtube.com/watch?v=lE1uAAeWAqs",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "jDhFfTc2bvU",
+          "title": "Woodworking Tools for Beginners #diy #tools #woodworking",
+          "author": "DIY Woodworking ",
+          "url": "https://www.youtube.com/watch?v=jDhFfTc2bvU",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "dMC_9Mmjj40",
+          "title": "The Greatest Speed Square Hack EVER?!? Check out the full video on our homepage! #protips #tutorial",
+          "author": "J&K Carpentry Bros ",
+          "url": "https://www.youtube.com/watch?v=dMC_9Mmjj40",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks1-2",
+      "route": "weeks1-2/index.html",
+      "section": "theory-3",
+      "heading": "Managing wood-lathe hazards, risks and teacher approval",
+      "query": "Managing wood-lathe hazards, risks and teacher approval woodworking safety training",
+      "watchFor": "the decisions, checks and sequence connected to managing wood-lathe hazards, risks and teacher approval.",
+      "selected": {
+        "id": "pRMl-Exyf6g",
+        "title": "Woodturning Safety Basics (101)",
+        "author": "Craft Supplies USA",
+        "url": "https://www.youtube.com/watch?v=pRMl-Exyf6g",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "jcokD6zRyrw",
+          "title": "Lathe Basics - WOOD magazine",
+          "author": "WOOD magazine",
+          "url": "https://www.youtube.com/watch?v=jcokD6zRyrw",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "ENDMoMrrGCY",
+          "title": "Wood Lathe Safety Tips 🪵 | What Every Beginner Should Know",
+          "author": "Tools Informer",
+          "url": "https://www.youtube.com/watch?v=ENDMoMrrGCY",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "pRMl-Exyf6g",
+          "title": "Woodturning Safety Basics (101)",
+          "author": "Craft Supplies USA",
+          "url": "https://www.youtube.com/watch?v=pRMl-Exyf6g",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "hPMTLnJ-YVo",
+          "title": "She Got Too Close… Then This Happened",
+          "author": "Fail to Fix",
+          "url": "https://www.youtube.com/watch?v=hPMTLnJ-YVo",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks3-4",
+      "route": "weeks3-4/index.html",
+      "section": "theory-1",
+      "heading": "Selecting and inspecting timber for the Pen blank",
+      "query": "Selecting and inspecting timber for the blank woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to selecting and inspecting timber for the pen blank.",
+      "selected": {
+        "id": "bBoElcC2Wng",
+        "title": "How to Select Timber for Minimal Movement | Peter Sefton",
+        "author": "Wood Workers Workshop Limited",
+        "url": "https://www.youtube.com/watch?v=bBoElcC2Wng",
+        "validated": "2026-08-16",
+        "score": 10
+      },
+      "alternatives": [
+        {
+          "id": "hRj0cO1kMZI",
+          "title": "Selecting structural timber",
+          "author": "WoodSolutions Campus",
+          "url": "https://www.youtube.com/watch?v=hRj0cO1kMZI",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "UFAaJv-CYrA",
+          "title": "Timber Selection: A Makers Guide",
+          "author": "JDLee Furniture ",
+          "url": "https://www.youtube.com/watch?v=UFAaJv-CYrA",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "txDViJVFeXk",
+          "title": "Choosing Timber for Exterior Projects - Woodworking Basics",
+          "author": "Axminster Tools",
+          "url": "https://www.youtube.com/watch?v=txDViJVFeXk",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "3xnstmu2wys",
+          "title": "Pick Perfect Lumber Every Time with This Simple Hack",
+          "author": "The Evening Woodworker",
+          "url": "https://www.youtube.com/watch?v=3xnstmu2wys",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks3-4",
+      "route": "weeks3-4/index.html",
+      "section": "theory-2",
+      "heading": "Using grain orientation to keep the two Pen bodies visually connected",
+      "query": "Using grain orientation to keep the two bodies visually connected woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to using grain orientation to keep the two pen bodies visually connected.",
+      "selected": {
+        "id": "5zhElYEDiAg",
+        "title": "Optimizing Grain Orientation  for Wood Movement - The 2nd Component of Strong Joinery",
+        "author": "Joint Effort / Plate 11",
+        "url": "https://www.youtube.com/watch?v=5zhElYEDiAg",
+        "validated": "2026-08-16",
+        "score": 10
+      },
+      "alternatives": [
+        {
+          "id": "h_byX7qsBkQ",
+          "title": "how the grain orientation determines the wood pattern",
+          "author": "swissdriftr",
+          "url": "https://www.youtube.com/watch?v=h_byX7qsBkQ",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "S7F6bCRBUDg",
+          "title": "Reading Wood Grain Direction - 2 Minute Tuesday",
+          "author": "Jonathan Katz-Moses",
+          "url": "https://www.youtube.com/watch?v=S7F6bCRBUDg",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "MJHk7eViPFw",
+          "title": "Grain Direction in Wood",
+          "author": "Kuffy's Woodwork Tips and Talk",
+          "url": "https://www.youtube.com/watch?v=MJHk7eViPFw",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "IOgW9A0Y1GA",
+          "title": "Quick Tip: Reading Grain Direction",
+          "author": "An American Artisan",
+          "url": "https://www.youtube.com/watch?v=IOgW9A0Y1GA",
+          "validated": "2026-08-16",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "module": "weeks3-4",
+      "route": "weeks3-4/index.html",
+      "section": "theory-3",
+      "heading": "Planning responsible material use and the Pen cutting list",
+      "query": "Planning responsible material use and the cutting list woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to planning responsible material use and the pen cutting list.",
+      "selected": {
+        "id": "BfALeEDkuF4",
+        "title": "Cutting list Basic",
+        "author": "support thailand",
+        "url": "https://www.youtube.com/watch?v=BfALeEDkuF4",
+        "validated": "2026-08-16",
+        "score": 8
+      },
+      "alternatives": [
+        {
+          "id": "x5jUVjjph4U",
+          "title": "Open Cut List | SketchUp Woodworking Extension",
+          "author": "Trimble SketchUp",
+          "url": "https://www.youtube.com/watch?v=x5jUVjjph4U",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "c1e11MDIy9U",
+          "title": "Creating a Cutting Layout in SketchUp for Woodworkers - The SketchUp Essentials",
+          "author": "TheSketchUpEssentials",
+          "url": "https://www.youtube.com/watch?v=c1e11MDIy9U",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "zSj6nSlGaOk",
+          "title": "Woodworking: Making a Plan",
+          "author": "TimTools99",
+          "url": "https://www.youtube.com/watch?v=zSj6nSlGaOk",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "8f_R9Gzs4gU",
+          "title": "The Best SketchUp CutList Plugin | OpenCutList",
+          "author": "MasterSketchUp",
+          "url": "https://www.youtube.com/watch?v=8f_R9Gzs4gU",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks5-6",
+      "route": "weeks5-6/index.html",
+      "section": "theory-1",
+      "heading": "Marking the Pen billet and preserving reliable references",
+      "query": "Marking the billet and preserving reliable references woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to marking the pen billet and preserving reliable references.",
+      "selected": {
+        "id": "5Z8aVrMvrus",
+        "title": "Why Carpenters Mark With A Crows Foot?",
+        "author": "Wood Bully ",
+        "url": "https://www.youtube.com/watch?v=5Z8aVrMvrus",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "NZMTLkVdS5E",
+          "title": "Mastering Accuracy: A No-BS Guide to Marking and Measuring Tools",
+          "author": "Jonathan Katz-Moses",
+          "url": "https://www.youtube.com/watch?v=NZMTLkVdS5E",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "NmEkWTKPGwU",
+          "title": "022r.The Best Ways of Marking",
+          "author": "Graham Blackburn Woodworking",
+          "url": "https://www.youtube.com/watch?v=NmEkWTKPGwU",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "xuZey_iDxqA",
+          "title": "Measure Twice and Still Wrong?  The Secret to Accurate Cuts  in Woodworking Starts with Marking",
+          "author": "Knocking on Wood",
+          "url": "https://www.youtube.com/watch?v=xuZey_iDxqA",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "5SxgQ0YPe4E",
+          "title": "Precise Marking",
+          "author": "Popular Woodworking",
+          "url": "https://www.youtube.com/watch?v=5SxgQ0YPe4E",
+          "validated": "2026-08-16",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "module": "weeks5-6",
+      "route": "weeks5-6/index.html",
+      "section": "theory-2",
+      "heading": "Preparing the two brass sleeves for the approved Pen kit",
+      "query": "Preparing the two brass sleeves for the approved kit woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to preparing the two brass sleeves for the approved pen kit.",
+      "selected": {
+        "id": "OFZTb7KEric",
+        "title": "How to Glue Pen Tubes into Pen Blanks - Pen Turning for Beginners",
+        "author": "Penn State Industries",
+        "url": "https://www.youtube.com/watch?v=OFZTb7KEric",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": []
+    },
+    {
+      "module": "weeks5-6",
+      "route": "weeks5-6/index.html",
+      "section": "theory-3",
+      "heading": "Drilling clean Pen blank holes and clearing swarf",
+      "query": "Drilling clean blank holes and clearing swarf woodworking safety training",
+      "watchFor": "the decisions, checks and sequence connected to drilling clean pen blank holes and clearing swarf.",
+      "selected": {
+        "id": "r2OTotcwfi0",
+        "title": "How To Drill Clean Holes In Wood | Two Minute Tuesday",
+        "author": "PlumbingGuy ",
+        "url": "https://www.youtube.com/watch?v=r2OTotcwfi0",
+        "validated": "2026-08-16",
+        "score": 10
+      },
+      "alternatives": [
+        {
+          "id": "Nu9tYcld7ck",
+          "title": "Drill Press Safety  |  Woodworkers Guild of America",
+          "author": "WoodWorkers Guild Of America",
+          "url": "https://www.youtube.com/watch?v=Nu9tYcld7ck",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "jC-VQ1JD1qQ",
+          "title": "Video 4 - Safe Handling and Controls (Drilling)",
+          "author": "SafeWork NSW",
+          "url": "https://www.youtube.com/watch?v=jC-VQ1JD1qQ",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "UdcdrhaRDSo",
+          "title": "Drills – Pre drilling V1.0",
+          "author": "Cal State LA A&L Productions",
+          "url": "https://www.youtube.com/watch?v=UdcdrhaRDSo",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "TsJzMIsPx5k",
+          "title": "Drills – Hole Saws V1.0",
+          "author": "Cal State LA A&L Productions",
+          "url": "https://www.youtube.com/watch?v=TsJzMIsPx5k",
+          "validated": "2026-08-16",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "module": "weeks7-8",
+      "route": "weeks7-8/index.html",
+      "section": "theory-1",
+      "heading": "Understanding between-centres turning and the approved Pen mandrel",
+      "query": "Understanding between-centres turning and the approved mandrel woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to understanding between-centres turning and the approved pen mandrel.",
+      "selected": {
+        "id": "LOfyyyj2RMU",
+        "title": "Turn Between Centers Mandrel",
+        "author": "ExoticBlanks' Videos",
+        "url": "https://www.youtube.com/watch?v=LOfyyyj2RMU",
+        "validated": "2026-08-16",
+        "score": 8
+      },
+      "alternatives": [
+        {
+          "id": "SfBtqEci2ac",
+          "title": "How to Turn Between Centers",
+          "author": "SJHS Woodworking",
+          "url": "https://www.youtube.com/watch?v=SfBtqEci2ac",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "kxW8VzlUIYM",
+          "title": "Turning Between Centers",
+          "author": "Wisc-Online (Part of WisTech Open)",
+          "url": "https://www.youtube.com/watch?v=kxW8VzlUIYM",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "zE8giuVGz4k",
+          "title": "Turning between centers, the why.",
+          "author": "Mechanntraining",
+          "url": "https://www.youtube.com/watch?v=zE8giuVGz4k",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "psbJH12ehV4",
+          "title": "Using basic woodturning tools/ between centers",
+          "author": "Geiserwoodturner",
+          "url": "https://www.youtube.com/watch?v=psbJH12ehV4",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks7-8",
+      "route": "weeks7-8/index.html",
+      "section": "theory-2",
+      "heading": "Assembling the approved mandrel with three collets and brass thumb screw",
+      "query": "Assembling the approved mandrel with three collets and brass thumb screw woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to assembling the approved mandrel with three collets and brass thumb screw.",
+      "selected": {
+        "id": "8-ybnuJ3uog",
+        "title": "How to Assemble the Collet?",
+        "author": "MSK CNC Tools",
+        "url": "https://www.youtube.com/watch?v=8-ybnuJ3uog",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "8HgORAU3IOM",
+          "title": "Beginner's Guide To Collets",
+          "author": "Blondihacks",
+          "url": "https://www.youtube.com/watch?v=8HgORAU3IOM",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "sf2swgXTNjc",
+          "title": "SUCH A SIMPLE TOOTHPICK HOLDER",
+          "author": "Tomislav Tomasic Woodturning",
+          "url": "https://www.youtube.com/watch?v=sf2swgXTNjc",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "uII0G89fONs",
+          "title": "Choosing The Right Size Pre Drill Bit | Beginner",
+          "author": "Training Hands Academy",
+          "url": "https://www.youtube.com/watch?v=uII0G89fONs",
+          "validated": "2026-08-16",
+          "score": 0
+        },
+        {
+          "id": "pnqP3qVjCLY",
+          "title": "How to Use Router Guide Bushings - Ask Matt #18",
+          "author": "Matthew Cremona",
+          "url": "https://www.youtube.com/watch?v=pnqP3qVjCLY",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks7-8",
+      "route": "weeks7-8/index.html",
+      "section": "theory-3",
+      "heading": "Lathe pre-start checks and secure approved workholding",
+      "query": "Lathe pre-start checks and secure approved workholding woodworking safety training",
+      "watchFor": "the decisions, checks and sequence connected to lathe pre-start checks and secure approved workholding.",
+      "selected": {
+        "id": "tcOP4_AG_DE",
+        "title": "iHub Safety Training - Wood Lathe",
+        "author": "OU Fabrication Lab",
+        "url": "https://www.youtube.com/watch?v=tcOP4_AG_DE",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "7yhkeUP6Mf8",
+          "title": "Woodworking Tips & Techniques - Lathe Safety",
+          "author": "WoodWorkers Guild Of America",
+          "url": "https://www.youtube.com/watch?v=7yhkeUP6Mf8",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "AjxoH5SM7IE",
+          "title": "Lathe: Safety & How - To",
+          "author": "Provo High School Woodworking",
+          "url": "https://www.youtube.com/watch?v=AjxoH5SM7IE",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "0X1nZwOZH6M",
+          "title": "Lathe Fundamentals 101  Lathe Safety",
+          "author": "Ultimate Reloader",
+          "url": "https://www.youtube.com/watch?v=0X1nZwOZH6M",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "q20zsdAckiM",
+          "title": "Lathe Safety",
+          "author": "SJHS Woodworking",
+          "url": "https://www.youtube.com/watch?v=q20zsdAckiM",
+          "validated": "2026-08-16",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "module": "weeks9-10",
+      "route": "weeks9-10/index.html",
+      "section": "theory-1",
+      "heading": "From square blank to controlled cylindrical form",
+      "query": "From square blank to controlled cylindrical form woodworking safety training",
+      "watchFor": "the decisions, checks and sequence connected to from square blank to controlled cylindrical form.",
+      "selected": {
+        "id": "F21irDPi5LQ",
+        "title": "Most people don't know this, how to use a speed square, the ultimate guide.",
+        "author": "James Gatlin",
+        "url": "https://www.youtube.com/watch?v=F21irDPi5LQ",
+        "validated": "2026-08-16",
+        "score": 4
+      },
+      "alternatives": [
+        {
+          "id": "bNRLHSxtgoQ",
+          "title": "Circular Saw Safety | Common Mistakes Using Circular Saw | Working Safely With Power Tools",
+          "author": "WorkSafeVP",
+          "url": "https://www.youtube.com/watch?v=bNRLHSxtgoQ",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "pRMl-Exyf6g",
+          "title": "Woodturning Safety Basics (101)",
+          "author": "Craft Supplies USA",
+          "url": "https://www.youtube.com/watch?v=pRMl-Exyf6g",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "S7QOhRRlr6A",
+          "title": "5 ESSENTIAL Circular Saw Safety Tips! Must Watch!",
+          "author": "DIYForKnuckleheads",
+          "url": "https://www.youtube.com/watch?v=S7QOhRRlr6A",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "JFdHBLSc12E",
+          "title": "Cutting Notches With a Circular Saw",
+          "author": "Training Hands Academy",
+          "url": "https://www.youtube.com/watch?v=JFdHBLSc12E",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks9-10",
+      "route": "weeks9-10/index.html",
+      "section": "theory-2",
+      "heading": "Understanding cutting and scraping during Pen turning",
+      "query": "Understanding cutting and scraping during turning woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to understanding cutting and scraping during pen turning.",
+      "selected": {
+        "id": "KXzEjCorWO0",
+        "title": "Four Cuts - A Wood Turning Basics Lesson",
+        "author": "wortheffort",
+        "url": "https://www.youtube.com/watch?v=KXzEjCorWO0",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "mKK5qr2offw",
+          "title": "11 Wood Turning Tips I Didn't Learn Watching YouTube",
+          "author": "ALC LatheWorks",
+          "url": "https://www.youtube.com/watch?v=mKK5qr2offw",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "jOvF5f1phhY",
+          "title": "Understanding Woodturning Catches",
+          "author": "FineWoodworking",
+          "url": "https://www.youtube.com/watch?v=jOvF5f1phhY",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "awip1REd-ow",
+          "title": "Understanding Carbide Cutters",
+          "author": "Timbecon",
+          "url": "https://www.youtube.com/watch?v=awip1REd-ow",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "DA4fwZCv_8Y",
+          "title": "4 Bowl Gouge Techniques — Push Pull Scrape Shear Cuts Video",
+          "author": "Turn A Wood Bowl",
+          "url": "https://www.youtube.com/watch?v=DA4fwZCv_8Y",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks9-10",
+      "route": "weeks9-10/index.html",
+      "section": "theory-3",
+      "heading": "Monitoring profile, alignment and material removal against approved kit references",
+      "query": "Monitoring profile, alignment and material removal against approved kit references woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to monitoring profile, alignment and material removal against approved kit references.",
+      "selected": {
+        "id": "h3jxhOaCJf4",
+        "title": "Pen Turning TBC Bushings and TBC adapters explained,    Woodturning",
+        "author": "Chad Schimmel",
+        "url": "https://www.youtube.com/watch?v=h3jxhOaCJf4",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": []
+    },
+    {
+      "module": "weeks11-12",
+      "route": "weeks11-12/index.html",
+      "section": "theory-1",
+      "heading": "Diagnosing tool marks and surface defects before sanding",
+      "query": "Diagnosing tool marks and surface defects before sanding woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to diagnosing tool marks and surface defects before sanding.",
+      "selected": {
+        "id": "nprefh_F2jk",
+        "title": "Want to avoid those swirls marks when Sanding? This video is a must WATCH! Don’t SKIP!!!",
+        "author": "JC Vintage Furniture",
+        "url": "https://www.youtube.com/watch?v=nprefh_F2jk",
+        "validated": "2026-08-16",
+        "score": 10
+      },
+      "alternatives": [
+        {
+          "id": "Zgwu6H5REH8",
+          "title": "Do THIS and You Will NEVER Have Swirl Marks!",
+          "author": "731 Woodworks",
+          "url": "https://www.youtube.com/watch?v=Zgwu6H5REH8",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "I91Gfb3QbYY",
+          "title": "Tight Space to Sand? Do this. #tipcentric",
+          "author": "TIP Centric",
+          "url": "https://www.youtube.com/watch?v=I91Gfb3QbYY",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "4Cy4s7TGhMI",
+          "title": "How to Sand quickly. Slow vs fast #sanding #deck",
+          "author": "Revive Home Tips",
+          "url": "https://www.youtube.com/watch?v=4Cy4s7TGhMI",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "RDar0rrCVOw",
+          "title": "Why Your Cuts Are Off (How To Mark + Cut Like a Pro)",
+          "author": "Essential Craftsman",
+          "url": "https://www.youtube.com/watch?v=RDar0rrCVOw",
+          "validated": "2026-08-16",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "module": "weeks11-12",
+      "route": "weeks11-12/index.html",
+      "section": "theory-2",
+      "heading": "Using a progressive approved abrasive sequence",
+      "query": "Using a progressive approved abrasive sequence woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to using a progressive approved abrasive sequence.",
+      "selected": {
+        "id": "I-cdkhR1TuU",
+        "title": "How to Use Sandpaper - A guide for Beginner Woodworkers",
+        "author": "Ash & Co Workshops",
+        "url": "https://www.youtube.com/watch?v=I-cdkhR1TuU",
+        "validated": "2026-08-16",
+        "score": 2
+      },
+      "alternatives": [
+        {
+          "id": "BVOQ2JTiktY",
+          "title": "The only beginner video you need to watch....EVER",
+          "author": "Lincoln St. Woodworks",
+          "url": "https://www.youtube.com/watch?v=BVOQ2JTiktY",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "kBfMLrZuYKE",
+          "title": "Abrasives for Woodworking 3 Great Tips to Save a Bundle",
+          "author": "Woodworking Masterclass",
+          "url": "https://www.youtube.com/watch?v=kBfMLrZuYKE",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "KiE4Pk_gu50",
+          "title": "Sanding Technique and Grits - 2 Minute Tuesday",
+          "author": "Jonathan Katz-Moses",
+          "url": "https://www.youtube.com/watch?v=KiE4Pk_gu50",
+          "validated": "2026-08-16",
+          "score": 0
+        },
+        {
+          "id": "4Cy4s7TGhMI",
+          "title": "How to Sand quickly. Slow vs fast #sanding #deck",
+          "author": "Revive Home Tips",
+          "url": "https://www.youtube.com/watch?v=4Cy4s7TGhMI",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks11-12",
+      "route": "weeks11-12/index.html",
+      "section": "theory-3",
+      "heading": "Selecting and applying the approved Pen finish from product information",
+      "query": "Selecting and applying the approved finish from product information woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to selecting and applying the approved pen finish from product information.",
+      "selected": {
+        "id": "oFwWrAq47io",
+        "title": "Wood Finishes - A Quick Guide - Varnish / Stain / Oil / Wax / Lacquer / Polyurethane / Shellac",
+        "author": "Rag 'n' Bone Brown",
+        "url": "https://www.youtube.com/watch?v=oFwWrAq47io",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "ESSU7EmT-cE",
+          "title": "A Woodworkers Guide to PERFECT Finishing - Step by Step and Fixing Common Problems",
+          "author": "Jonathan Katz-Moses",
+          "url": "https://www.youtube.com/watch?v=ESSU7EmT-cE",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "0z_xHK4-3cI",
+          "title": "Finding the Perfect Finish",
+          "author": "Workshop Companion",
+          "url": "https://www.youtube.com/watch?v=0z_xHK4-3cI",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "sVXN8ASgzi4",
+          "title": "Woodworking Tips: Finishing - Choosing a Brush for Your Top Coat",
+          "author": "WoodWorkers Guild Of America",
+          "url": "https://www.youtube.com/watch?v=sVXN8ASgzi4",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "SWLm-3_iogw",
+          "title": "The only finish woodworkers need",
+          "author": "Lincoln St. Woodworks",
+          "url": "https://www.youtube.com/watch?v=SWLm-3_iogw",
+          "validated": "2026-08-16",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "module": "weeks13-14",
+      "route": "weeks13-14/index.html",
+      "section": "theory-1",
+      "heading": "Identifying and staging the Pen kit components for assembly",
+      "query": "Identifying and staging the kit components for assembly woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to identifying and staging the pen kit components for assembly.",
+      "selected": {
+        "id": "Cc3nHDnViTc",
+        "title": "IDENTIFYING PARTS OF YOUR WOODWORKING PROJECT",
+        "author": "WoodWorkers Guild Of America",
+        "url": "https://www.youtube.com/watch?v=Cc3nHDnViTc",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "j2WF6EEwm2E",
+          "title": "Wooden Light fixture assembly. #woodworking #woodworker #entrepreneur #tools #handmade #etsy #amazon",
+          "author": "Bandas Palette",
+          "url": "https://www.youtube.com/watch?v=j2WF6EEwm2E",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "XWgeWBdh1pY",
+          "title": "how to use furniture cam lock and nut",
+          "author": "JOYSOURCE HOME",
+          "url": "https://www.youtube.com/watch?v=XWgeWBdh1pY",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "kHAfafwQt_k",
+          "title": "13 Tools Every Beginner Woodworker Needs To Own",
+          "author": "Crafted Workshop",
+          "url": "https://www.youtube.com/watch?v=kHAfafwQt_k",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "Shlxog-adzI",
+          "title": "Beginner woodworker? Here are the tools you need to get started building your own furniture!",
+          "author": "Built by Bec ",
+          "url": "https://www.youtube.com/watch?v=Shlxog-adzI",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks13-14",
+      "route": "weeks13-14/index.html",
+      "section": "theory-2",
+      "heading": "Assembling the clip/button and nib shroud in the approved sequence",
+      "query": "Assembling the clip/button and nib shroud in the approved sequence woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to assembling the clip/button and nib shroud in the approved sequence.",
+      "selected": {
+        "id": "LaPEnlwFoVE",
+        "title": "Assembling the Sierra® Button Click",
+        "author": "Berea Hardwoods",
+        "url": "https://www.youtube.com/watch?v=LaPEnlwFoVE",
+        "validated": "2026-08-16",
+        "score": 10
+      },
+      "alternatives": [
+        {
+          "id": "0X2uUyHNhHA",
+          "title": "Mod-eez 4036B Flat Double Clip Demo | Hidden Connector for Fast CNC Furniture Assembly",
+          "author": "KNAPP Connectors",
+          "url": "https://www.youtube.com/watch?v=0X2uUyHNhHA",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "xRyU6YLp1HQ",
+          "title": "How to Use Quick-Grip Clamps for Beginner Woodworkers",
+          "author": "Ash & Co Workshops",
+          "url": "https://www.youtube.com/watch?v=xRyU6YLp1HQ",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "pksf6qCVYVk",
+          "title": "Never Buy Wood Lipping Clamps Again! This Simple Trick Changes Everything",
+          "author": "Mick’s Woodwork Wonders ",
+          "url": "https://www.youtube.com/watch?v=pksf6qCVYVk",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "Qa8K_CH3eaI",
+          "title": "Drawbore Pins, Part 1: Theory & Preparation",
+          "author": "Lie-Nielsen Toolworks",
+          "url": "https://www.youtube.com/watch?v=Qa8K_CH3eaI",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks13-14",
+      "route": "weeks13-14/index.html",
+      "section": "theory-3",
+      "heading": "Preventing misalignment and damage during Pen assembly",
+      "query": "Preventing misalignment and damage during assembly woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to preventing misalignment and damage during pen assembly.",
+      "selected": {
+        "id": "gjyvO4H_Svw",
+        "title": "Never Damage A Blank While Pressing A Pen Together",
+        "author": "RJBWoodTurner",
+        "url": "https://www.youtube.com/watch?v=gjyvO4H_Svw",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "uJh0jd6wxhY",
+          "title": "Woodworking tips and tricks! How to make a reliable corner joint for boards of different sizes",
+          "author": "Simple Creative",
+          "url": "https://www.youtube.com/watch?v=uJh0jd6wxhY",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "7TrMIBDNUQA",
+          "title": "Idea How to Align Wooden Dowel Pins #diy",
+          "author": "lilDIY",
+          "url": "https://www.youtube.com/watch?v=7TrMIBDNUQA",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "Jwr5OgPn_so",
+          "title": "Table Saw Safety to Avoid Kickback #tablesaw #kickback #tablesawkickback #safety #woodworking",
+          "author": "Statedwoods Co",
+          "url": "https://www.youtube.com/watch?v=Jwr5OgPn_so",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "gU74xsBgea8",
+          "title": "2 ways to install hinges #diy #tipsbola",
+          "author": "Handy369",
+          "url": "https://www.youtube.com/watch?v=gU74xsBgea8",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks15-16",
+      "route": "weeks15-16/index.html",
+      "section": "theory-1",
+      "heading": "Designing a comfortable and visually resolved Pen profile within kit constraints",
+      "query": "Designing a comfortable and visually resolved profile within kit constraints design technology education",
+      "watchFor": "the decisions, checks and sequence connected to designing a comfortable and visually resolved pen profile within kit constraints.",
+      "selected": {
+        "id": "mA5xzdOtW1g",
+        "title": "Innovative Designer 4b: Design Constraints (ISTE Standards for Students)",
+        "author": "ISTE",
+        "url": "https://www.youtube.com/watch?v=mA5xzdOtW1g",
+        "validated": "2026-08-16",
+        "score": 10
+      },
+      "alternatives": []
+    },
+    {
+      "module": "weeks15-16",
+      "route": "weeks15-16/index.html",
+      "section": "theory-2",
+      "heading": "Standards, quality control and production techniques in Pen manufacture",
+      "query": "Standards, quality control and production techniques in manufacture woodworking safety training",
+      "watchFor": "the decisions, checks and sequence connected to standards, quality control and production techniques in pen manufacture.",
+      "selected": {
+        "id": "ln0JdHUWu6Q",
+        "title": "Production Turning Tips - Make Money w/t Pens - Art Market Projects",
+        "author": "wortheffort",
+        "url": "https://www.youtube.com/watch?v=ln0JdHUWu6Q",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "yuH35ottILU",
+          "title": "The 7 Quality Control (QC) Tools Explained with an Example!",
+          "author": "CQE Academy",
+          "url": "https://www.youtube.com/watch?v=yuH35ottILU",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "T64QknoPgiA",
+          "title": "Quality Assurance (QA) & Quality Control (QC) Explained | Complete Pharma Training",
+          "author": "Bio Brainzz",
+          "url": "https://www.youtube.com/watch?v=T64QknoPgiA",
+          "validated": "2026-08-16",
+          "score": 8
+        },
+        {
+          "id": "AjgLWZyUdX0",
+          "title": "Wood Product Manufacturing: Creating a Compliance List for the Top 10 MFC Standards",
+          "author": "WVU Industrial Extension",
+          "url": "https://www.youtube.com/watch?v=AjgLWZyUdX0",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "vvlvpy5PW8E",
+          "title": "Top 10 Manufacturing OSHA Health & Safety Violations & How To Avoid Them",
+          "author": "Berg Compliance Solutions - Russell Carr",
+          "url": "https://www.youtube.com/watch?v=vvlvpy5PW8E",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks15-16",
+      "route": "weeks15-16/index.html",
+      "section": "theory-3",
+      "heading": "Comparing handcraft, jigs and repeat production technologies",
+      "query": "Comparing handcraft, jigs and repeat production technologies woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to comparing handcraft, jigs and repeat production technologies.",
+      "selected": {
+        "id": "W4kUOZCBaQY",
+        "title": "Using Jigs to make Parts Repeatable and Accurate | Always a Better Way",
+        "author": "Home Built Workshop (Jeff Baker)",
+        "url": "https://www.youtube.com/watch?v=W4kUOZCBaQY",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "6gEkRxyZh8U",
+          "title": "Making jigs at our factory!",
+          "author": "Josmo Worksmiths",
+          "url": "https://www.youtube.com/watch?v=6gEkRxyZh8U",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks17-18",
+      "route": "weeks17-18/index.html",
+      "section": "theory-1",
+      "heading": "Building a real Pen Work Method Statement",
+      "query": "Building a real Work Method Statement woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to building a real pen work method statement.",
+      "selected": {
+        "id": "juIxa-A851w",
+        "title": "How to Write a Method Statement for Building Works - Site Engineer Tutorial",
+        "author": "The Merchant Construct-preneurs and Tutors",
+        "url": "https://www.youtube.com/watch?v=juIxa-A851w",
+        "validated": "2026-08-16",
+        "score": 12
+      },
+      "alternatives": [
+        {
+          "id": "bGbljs5cUmQ",
+          "title": "What Is A Method Statement And How To Write One",
+          "author": "HSEDocs",
+          "url": "https://www.youtube.com/watch?v=bGbljs5cUmQ",
+          "validated": "2026-08-16",
+          "score": 8
+        },
+        {
+          "id": "aoDlEutMU0k",
+          "title": "How to write a Method Statement",
+          "author": "HSEDocs",
+          "url": "https://www.youtube.com/watch?v=aoDlEutMU0k",
+          "validated": "2026-08-16",
+          "score": 8
+        },
+        {
+          "id": "AiDAlHr6yiM",
+          "title": "Work Method Statement (WMS) | Safe Work Method Statement (SWMS) | HSE STUDY GUIDE",
+          "author": "HSE STUDY GUIDE",
+          "url": "https://www.youtube.com/watch?v=AiDAlHr6yiM",
+          "validated": "2026-08-16",
+          "score": 8
+        },
+        {
+          "id": "v3wwxvrNmoY",
+          "title": "Box Hill Institute Trades Building Strong: Wall Framing | Part 2: Marking out walls",
+          "author": "Box Hill Institute",
+          "url": "https://www.youtube.com/watch?v=v3wwxvrNmoY",
+          "validated": "2026-08-16",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "module": "weeks17-18",
+      "route": "weeks17-18/index.html",
+      "section": "theory-2",
+      "heading": "Creating the Pen production flowchart: inputs, processes and outputs",
+      "query": "Creating the production flowchart: inputs, processes and outputs design technology education",
+      "watchFor": "the decisions, checks and sequence connected to creating the pen production flowchart: inputs, processes and outputs.",
+      "selected": {
+        "id": "T6muuBU--gs",
+        "title": "Identify Inputs, Outputs & the Processes - HOW TO CREATE A PROCESS FLOWCHART",
+        "author": "Best Practice",
+        "url": "https://www.youtube.com/watch?v=T6muuBU--gs",
+        "validated": "2026-08-16",
+        "score": 12
+      },
+      "alternatives": [
+        {
+          "id": "XhJ4Zym-vTo",
+          "title": "Inputs Processes Outputs: The Essence of Business Operations | How Every Business Really Works",
+          "author": "Laurence Gartside",
+          "url": "https://www.youtube.com/watch?v=XhJ4Zym-vTo",
+          "validated": "2026-08-16",
+          "score": 8
+        },
+        {
+          "id": "SWRDqTx8d4k",
+          "title": "Introduction to Creating Flowcharts",
+          "author": "Robot Riedinger",
+          "url": "https://www.youtube.com/watch?v=SWRDqTx8d4k",
+          "validated": "2026-08-16",
+          "score": 8
+        },
+        {
+          "id": "ceh-2iCPMB4",
+          "title": "GCSE D&T NEA walkthrough development Flowchart",
+          "author": "MR Ridley Design & Technology",
+          "url": "https://www.youtube.com/watch?v=ceh-2iCPMB4",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "kUt0nS0yMtM",
+          "title": "Flowcharts",
+          "author": "MrBrownCS",
+          "url": "https://www.youtube.com/watch?v=kUt0nS0yMtM",
+          "validated": "2026-08-16",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "module": "weeks17-18",
+      "route": "weeks17-18/index.html",
+      "section": "theory-3",
+      "heading": "Explaining social and environmental impacts of Pen production and use",
+      "query": "Explaining social and environmental impacts of production and use woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to explaining social and environmental impacts of pen production and use.",
+      "selected": {
+        "id": "HkRo84b97Go",
+        "title": "Wood Reduces the Environmental Impact of Buildings",
+        "author": "Think Wood",
+        "url": "https://www.youtube.com/watch?v=HkRo84b97Go",
+        "validated": "2026-08-16",
+        "score": 10
+      },
+      "alternatives": [
+        {
+          "id": "aOvVB8NF4Bk",
+          "title": "Environmental Impacts of Manufacturing, Using, and Disposing of Tech",
+          "author": "MrBrownCS",
+          "url": "https://www.youtube.com/watch?v=aOvVB8NF4Bk",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "TFhH8LyMcaI",
+          "title": "The Environmental Impact of Mining: Understanding the Consequences.",
+          "author": "Earth's Wonders\n\n",
+          "url": "https://www.youtube.com/watch?v=TFhH8LyMcaI",
+          "validated": "2026-08-16",
+          "score": 8
+        },
+        {
+          "id": "C9nuTfm18KY",
+          "title": "AI and Sustainability | Explained in 3 Minutes",
+          "author": "NLB Singapore",
+          "url": "https://www.youtube.com/watch?v=C9nuTfm18KY",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "Qyqi6SULUMs",
+          "title": "Wood Technology: A lesson in Sustainability - The Paper Cup",
+          "author": "Killinthomas Timberworks",
+          "url": "https://www.youtube.com/watch?v=Qyqi6SULUMs",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "weeks19-20",
+      "route": "weeks19-20/index.html",
+      "section": "theory-1",
+      "heading": "Photographing Pen stages and explaining problem solving",
+      "query": "Photographing stages and explaining problem solving woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to photographing pen stages and explaining problem solving.",
+      "selected": {
+        "id": "-DYnEEmVQCA",
+        "title": "Photographing Your Woodworking Projects",
+        "author": "The Wood Whisperer",
+        "url": "https://www.youtube.com/watch?v=-DYnEEmVQCA",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "9N1czQ2clvI",
+          "title": "How I Photograph Furniture",
+          "author": "Dave Moore (Furniture Maker)",
+          "url": "https://www.youtube.com/watch?v=9N1czQ2clvI",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "vUhoS7vYo7Q",
+          "title": "3 Tricks for Better Woodworking Project Photos",
+          "author": "Woodworkers Source",
+          "url": "https://www.youtube.com/watch?v=vUhoS7vYo7Q",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "dxnhQW3EbYc",
+          "title": "How To Shoot Better Pictures Of Your Project - WOOD magazine",
+          "author": "WOOD magazine",
+          "url": "https://www.youtube.com/watch?v=dxnhQW3EbYc",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "V7z7BAZdt2M",
+          "title": "PHOTOGRAPHY BASICS in 10 MINUTES",
+          "author": "David Manning",
+          "url": "https://www.youtube.com/watch?v=V7z7BAZdt2M",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks19-20",
+      "route": "weeks19-20/index.html",
+      "section": "theory-2",
+      "heading": "Using PMI to evaluate the completed Pen",
+      "query": "Using PMI to evaluate the completed woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to using pmi to evaluate the completed pen.",
+      "selected": {
+        "id": "XDqQcdYjRlI",
+        "title": "Product Research (Analysis) using the P.M.I. (Plus, Minus, Interesting) Method",
+        "author": "mrdanielsos",
+        "url": "https://www.youtube.com/watch?v=XDqQcdYjRlI",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "__su7eIFRRU",
+          "title": "How I Passed my PMP Exam in 2 weeks!! (2023 Study Guide)",
+          "author": "Max Mao",
+          "url": "https://www.youtube.com/watch?v=__su7eIFRRU",
+          "validated": "2026-08-16",
+          "score": 0
+        },
+        {
+          "id": "KdwdeT9HfNs",
+          "title": "PMI Study Hall: The Ultimate PMP Study Buddy",
+          "author": "Project Management Institute (PMI)",
+          "url": "https://www.youtube.com/watch?v=KdwdeT9HfNs",
+          "validated": "2026-08-16",
+          "score": 0
+        },
+        {
+          "id": "U9pe7nrnHjo",
+          "title": "PMI Study Hall, Will it get you the PMP?",
+          "author": "One Day MBA",
+          "url": "https://www.youtube.com/watch?v=U9pe7nrnHjo",
+          "validated": "2026-08-16",
+          "score": 0
+        },
+        {
+          "id": "2AMUotMRrvc",
+          "title": "Prepare for the PMP® exam: PMI Study Hall™ demo",
+          "author": "Project Management Institute (PMI)",
+          "url": "https://www.youtube.com/watch?v=2AMUotMRrvc",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "weeks19-20",
+      "route": "weeks19-20/index.html",
+      "section": "theory-3",
+      "heading": "Final reflection, evidence review and skill transfer",
+      "query": "Final reflection, evidence review and skill transfer design technology education",
+      "watchFor": "the decisions, checks and sequence connected to final reflection, evidence review and skill transfer.",
+      "selected": {
+        "id": "oQMFwv1Oo3Q",
+        "title": "(Re)Design with Technology Final Reflection",
+        "author": "Justus Briggs",
+        "url": "https://www.youtube.com/watch?v=oQMFwv1Oo3Q",
+        "validated": "2026-08-16",
+        "score": 6
+      },
+      "alternatives": [
+        {
+          "id": "8oJP9d85GDg",
+          "title": "How to Write a Reflection Statement for HSC English",
+          "author": "ArtofSmartTV",
+          "url": "https://www.youtube.com/watch?v=8oJP9d85GDg",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "IaQb8hBa-lg",
+          "title": "The Best Evidence-based Method For Reflection | Using Gibbs' Reflective Cycle",
+          "author": "Dr Amina Yonis",
+          "url": "https://www.youtube.com/watch?v=IaQb8hBa-lg",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "taIzRoYcqDs",
+          "title": "Reflective writing: the basics",
+          "author": "RMIT University Library Videos",
+          "url": "https://www.youtube.com/watch?v=taIzRoYcqDs",
+          "validated": "2026-08-16",
+          "score": 0
+        },
+        {
+          "id": "SntBj0FIApw",
+          "title": "Reflective writing",
+          "author": "Academic Skills, The University of Melbourne",
+          "url": "https://www.youtube.com/watch?v=SntBj0FIApw",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "review": {
+    "missing": [],
+    "duplicateIds": [],
+    "targetedOverrides": 8
+  }
+}
