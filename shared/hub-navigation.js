@@ -44,7 +44,7 @@
       { label: "Course", href: "index.html", current: isCourseHome && !isTeacherResources },
       { label: "Modules", href: "index.html#course-map", current: path.includes("/weeks") },
       { label: "Video learning", href: "youtube-library/video-library.html", current: path.includes("/youtube-library/") },
-      { label: "Busy Work", href: BUSY_WORK_URL, external: true },
+      { label: "Puzzles", href: BUSY_WORK_URL, external: true },
       { label: "My folio", href: "pen-folio.html", current: path.endsWith("/pen-folio.html") },
       { label: "Pen resource", href: PEN_RESOURCE_URL, external: true, newTab: true },
       { label: "Teacher resources", href: "teacher-resources.html", current: isTeacherResources },
