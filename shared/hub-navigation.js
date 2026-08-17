@@ -23,7 +23,7 @@
     const path = location.pathname.toLowerCase();
     const rootPath = courseRoot.pathname.replace(/\/$/, "").toLowerCase();
     const isCourseHome = path === rootPath + "/" || path === rootPath + "/index.html";
-    const isTeacherResources = isCourseHome && location.hash.toLowerCase() === "#teacher-resources";
+    const isTeacherResources = path.endsWith("/teacher-resources.html");
 
     const nav = document.createElement("nav");
     nav.className = "course-family-nav screen-only";
@@ -47,7 +47,7 @@
       { label: "Busy Work", href: BUSY_WORK_URL, external: true },
       { label: "My folio", href: "pen-folio.html", current: path.endsWith("/pen-folio.html") },
       { label: "Pen resource", href: PEN_RESOURCE_URL, external: true, newTab: true },
-      { label: "Teacher resources", href: "index.html#teacher-resources", current: isTeacherResources },
+      { label: "Teacher resources", href: "teacher-resources.html", current: isTeacherResources },
       { label: "Main Menu", href: HUB_URL, external: true }
     ];
 
