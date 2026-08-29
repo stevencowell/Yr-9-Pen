@@ -741,3 +741,9 @@ main {
   }
 }
 
+/* Keep wide teacher tables inside the mobile grid; each wrapper scrolls locally. */
+.landing main,
+.landing main > * {
+  min-width: 0;
+  max-width: 100%;
+}
