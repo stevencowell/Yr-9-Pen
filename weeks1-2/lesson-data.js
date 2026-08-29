@@ -323,17 +323,19 @@ window.WRITTEN_QUESTIONS = [
     "clarification": "What is the key idea in Reading the approved Pen Making process resource and kit instructions? How would you use it in a decision, fault check or quality check?"
   },
   {
-    "title": "3. Apply: Managing wood-lathe hazards, risks and teacher approval",
-    "prompt": "Explain the main principle in this section and apply it to one real decision, fault diagnosis or quality check in the Pen project.",
+    "title": "3. Plan and verify an approved wood-lathe setup",
+    "prompt": "Prepare a teacher-check setup record for one approved Pen turning stage. Explain timber preparation; how between-centres, chuck and faceplate setups differ; the required crack, laminated-stock, mounting and clearance checks; when the tool rest is removed for approved sanding; and how cutting, scraping and sanding processes differ. Do not invent speeds, angles or authority.",
     "minWords": 75,
     "concepts": [
       {
-        "label": "section idea",
+        "label": "setup and timber checks",
         "terms": [
-          "managing",
-          "wood-lathe",
-          "hazards",
-          "risks"
+          "between centres",
+          "chuck",
+          "faceplate",
+          "crack",
+          "mounting",
+          "clearance"
         ]
       },
       {
@@ -348,29 +350,30 @@ window.WRITTEN_QUESTIONS = [
         ]
       },
       {
-        "label": "quality or evidence check",
+        "label": "turning and sanding processes",
         "terms": [
+          "cutting",
+          "scraping",
+          "sanding",
+          "tool rest",
           "check",
-          "evidence",
-          "drawing",
-          "brief",
           "approved",
-          "result"
+          "teacher"
         ]
       }
     ],
     "scaffold": [
-      "The main principle is…",
-      "In the Pen project, this matters when…",
-      "I would check or prove the result by…"
+      "The timber and workholding checks are…",
+      "The three setup families differ because…",
+      "For cutting, scraping and sanding, the approved controls are…"
     ],
     "prompts": [
-      "State the controlling idea from \"Managing wood-lathe hazards, risks and teacher approval\".",
-      "Apply the idea to a specific Pen stage or decision.",
-      "Finish with a clear quality or evidence check."
+      "Include defects, laminated stock, mounting and clearance.",
+      "Explain the tool-rest control before approved sanding.",
+      "Distinguish cutting, scraping and sanding without inventing operational settings."
     ],
-    "model": "Effective safety on the lathe comes from identifying hazards and applying the strongest practical controls before relying on PPE. Before each lathe stage, I would identify hazards, apply approved controls and obtain teacher authorisation.",
-    "clarification": "What is the key idea in Managing wood-lathe hazards, risks and teacher approval? How would you use it in a decision, fault check or quality check?"
+    "model": "My setup record would identify the approved timber and workholding method, show checks for cracks, laminated-stock integrity, secure mounting and workpiece clearance, and record teacher authorisation. I would explain that between-centres, chuck and faceplate turning use different workholding systems. Cutting, scraping and sanding require different approved tools and actions; before approved sanding, the stopped and isolated machine is checked and the tool rest is removed as directed. Exact speeds, tool presentation and operation remain controlled by the SOP and teacher demonstration.",
+    "clarification": "How will you prove that the timber, workholding, clearance and chosen cutting, scraping or sanding process are ready for teacher approval?"
   },
   {
     "title": "4. Connect the two-week module",
